@@ -1,0 +1,287 @@
+[0.490s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.491s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb16f74f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb18e48e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb18e48e0>>)
+[1.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.280s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi4b/PBL5/ydlidar_ws'
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'ignore'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'ignore_ament_install'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['colcon_pkg']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'colcon_pkg'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['colcon_meta']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'colcon_meta'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['ros']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'ros'
+[1.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openslam_gmapping' with type 'ros.ament_cmake' and name 'openslam_gmapping'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore_ament_install'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_pkg']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_pkg'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_meta']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_meta'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ros']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ros'
+[1.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_gmapping' with type 'ros.ament_cmake' and name 'slam_gmapping'
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[1.359s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[1.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.440s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.441s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.441s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.442s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.444s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/pi4b/PBL5/ydlidar_ws/install
+[1.453s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[1.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_args' from command line to 'None'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target' from command line to 'None'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[1.683s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[1.683s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[1.683s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[1.683s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[1.683s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.683s] DEBUG:colcon.colcon_core.verb:Building package 'openslam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping', 'merge_install': False, 'path': '/home/pi4b/PBL5/ydlidar_ws/src/openslam_gmapping', 'symlink_install': True, 'test_result_base': None}
+[1.685s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[1.685s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[1.685s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.685s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.685s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.685s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.685s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.685s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.686s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver', 'symlink_install': True, 'test_result_base': None}
+[1.687s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_args' from command line to 'None'
+[1.687s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target' from command line to 'None'
+[1.687s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.687s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[1.688s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[1.688s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[1.688s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[1.688s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[1.688s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.688s] DEBUG:colcon.colcon_core.verb:Building package 'slam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping', 'merge_install': False, 'path': '/home/pi4b/PBL5/ydlidar_ws/src/slam_gmapping', 'symlink_install': True, 'test_result_base': None}
+[1.689s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.692s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.693s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi4b/PBL5/ydlidar_ws/src/openslam_gmapping' with build type 'ament_cmake'
+[1.693s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi4b/PBL5/ydlidar_ws/src/openslam_gmapping'
+[1.702s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.703s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.703s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.722s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[1.722s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver'
+[1.724s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.724s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/ydlidar_ws/src/openslam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping
+[1.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver
+[5.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/ydlidar_ws/src/openslam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping
+[5.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping -- -j4 -l4
+[10.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver
+[10.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[28.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping -- -j4 -l4
+[28.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping
+[30.910s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[30.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping
+[30.929s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping' for CMake module files
+[30.932s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping' for CMake config files
+[30.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[30.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[30.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[30.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[30.953s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib'
+[30.954s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/bin'
+[30.955s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[30.956s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/python3.10/site-packages'
+[30.958s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/bin'
+[30.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[30.966s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[30.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[30.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[30.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[30.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[30.988s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[30.990s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping' for CMake module files
+[30.995s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping' for CMake config files
+[31.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[31.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[31.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[31.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[31.014s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib'
+[31.014s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/bin'
+[31.015s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[31.017s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/python3.10/site-packages'
+[31.019s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/bin'
+[31.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[31.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[31.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[31.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[31.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[31.037s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[31.039s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi4b/PBL5/ydlidar_ws/src/slam_gmapping' with build type 'ament_cmake'
+[31.040s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi4b/PBL5/ydlidar_ws/src/slam_gmapping'
+[31.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.042s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/ydlidar_ws/src/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping
+[41.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/ydlidar_ws/src/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping
+[41.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping -- -j4 -l4
+[63.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[63.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver
+[65.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[65.211s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver' for CMake module files
+[65.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver
+[65.215s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver' for CMake config files
+[65.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[65.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[65.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[65.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[65.228s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/lib'
+[65.229s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/bin'
+[65.230s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[65.231s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[65.233s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/bin'
+[65.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[65.237s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[65.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[65.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[65.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[65.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[65.251s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[65.252s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver' for CMake module files
+[65.256s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver' for CMake config files
+[65.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[65.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[65.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[65.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[65.272s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/lib'
+[65.272s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/bin'
+[65.273s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[65.274s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[65.276s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/bin'
+[65.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[65.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[65.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[65.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[65.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[65.293s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[117.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping -- -j4 -l4
+[117.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping
+[117.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[117.930s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping' for CMake module files
+[117.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping
+[117.934s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping' for CMake config files
+[117.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[117.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[117.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[117.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[117.947s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/lib'
+[117.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'ld_library_path_lib')
+[117.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/hook/ld_library_path_lib.ps1'
+[117.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/hook/ld_library_path_lib.dsv'
+[117.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/hook/ld_library_path_lib.sh'
+[117.954s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/bin'
+[117.954s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[117.955s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/lib/python3.10/site-packages'
+[117.956s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/bin'
+[117.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[117.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[117.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.sh'
+[117.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.bash'
+[117.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[117.968s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[117.971s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[117.972s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping' for CMake module files
+[117.976s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping' for CMake config files
+[117.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[117.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[117.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[117.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[117.987s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/lib'
+[117.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'ld_library_path_lib')
+[117.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/hook/ld_library_path_lib.ps1'
+[117.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/hook/ld_library_path_lib.dsv'
+[117.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/hook/ld_library_path_lib.sh'
+[117.994s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/bin'
+[117.995s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[117.996s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/lib/python3.10/site-packages'
+[117.998s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/bin'
+[117.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[118.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[118.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.sh'
+[118.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.bash'
+[118.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[118.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[118.012s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[118.013s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[118.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[118.014s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[118.038s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[118.039s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[118.039s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[118.069s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[118.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi4b/PBL5/ydlidar_ws/install/local_setup.ps1'
+[118.075s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi4b/PBL5/ydlidar_ws/install/_local_setup_util_ps1.py'
+[118.083s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi4b/PBL5/ydlidar_ws/install/setup.ps1'
+[118.090s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi4b/PBL5/ydlidar_ws/install/local_setup.sh'
+[118.093s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi4b/PBL5/ydlidar_ws/install/_local_setup_util_sh.py'
+[118.096s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi4b/PBL5/ydlidar_ws/install/setup.sh'
+[118.102s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi4b/PBL5/ydlidar_ws/install/local_setup.bash'
+[118.105s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi4b/PBL5/ydlidar_ws/install/setup.bash'
+[118.112s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi4b/PBL5/ydlidar_ws/install/local_setup.zsh'
+[118.114s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi4b/PBL5/ydlidar_ws/install/setup.zsh'

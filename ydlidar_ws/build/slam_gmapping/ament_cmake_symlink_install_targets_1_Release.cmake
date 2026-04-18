@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping/libslam_gmapping.so" "TARGETS" "slam_gmapping" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

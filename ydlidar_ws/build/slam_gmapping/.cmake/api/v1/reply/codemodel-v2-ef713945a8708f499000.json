@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-5cce5516fb9c206f9f55.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "slam_gmapping",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "slam_gmapping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-slam_gmapping-Release-ea8c465f8ad61235b825.json",
+					"name" : "slam_gmapping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "slam_gmapping_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-slam_gmapping_node-Release-e0720c90ec5131a7a584.json",
+					"name" : "slam_gmapping_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "slam_gmapping_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-slam_gmapping_uninstall-Release-5164871b1c35e578bb45.json",
+					"name" : "slam_gmapping_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-4d3496ff122756d8816a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping",
+		"source" : "/home/pi4b/PBL5/ydlidar_ws/src/slam_gmapping"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

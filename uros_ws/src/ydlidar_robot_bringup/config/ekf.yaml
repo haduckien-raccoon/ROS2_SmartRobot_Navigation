@@ -1,0 +1,29 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 30.0
+    sensor_timeout: 2.0
+    two_d_mode: true
+    
+    # Odometry from ESP32 (encoder + motor)
+    odom0: /odom_from_esp32
+    odom0_config: [true, true, false,      # x, y, z
+                   false, false, false,     # roll, pitch, yaw
+                   true, false, false,      # vx, vy, vz
+                   false, false, false,     # roll_rate, pitch_rate, yaw_rate
+                   false, false, false]     # ax, ay, az
+    odom0_queue_size: 2
+    odom0_nodelay: true
+    
+    # IMU from ESP32
+    imu0: /imu/data_raw
+    imu0_config: [false, false, false,     # x, y, z
+                  true, true, true,        # roll, pitch, yaw
+                  false, false, false,     # vx, vy, vz
+                  true, true, true,        # roll_rate, pitch_rate, yaw_rate
+                  false, false, false]     # ax, ay, az
+    imu0_queue_size: 10
+    imu0_nodelay: true
+    
+    initial_state: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                    0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                    0.0, 0.0, 0.0]

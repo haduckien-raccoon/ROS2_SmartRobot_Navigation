@@ -1,0 +1,1515 @@
+[0.000000] (-) TimerEvent: {}
+[0.001610] (openslam_gmapping) JobQueued: {'identifier': 'openslam_gmapping', 'dependencies': OrderedDict()}
+[0.002136] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.002594] (slam_gmapping) JobQueued: {'identifier': 'slam_gmapping', 'dependencies': OrderedDict([('openslam_gmapping', '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping')])}
+[0.002781] (openslam_gmapping) JobStarted: {'identifier': 'openslam_gmapping'}
+[0.030285] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.055817] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'cmake'}
+[0.057872] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '/home/pi4b/PBL5/ydlidar_ws/src/openslam_gmapping', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping'], 'cwd': '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping', 'env': OrderedDict([('VNCDESKTOP', 'pi4b:1 (pi4b)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi4b'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pi4b'), ('OLDPWD', '/home/pi4b/PBL5/ydlidar_ws/src'), ('DESKTOP_SESSION', 'xfce'), ('LIDAR_TYPE', 'x3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '15298'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi4b'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b714ff2e_175e_4313_a1de_e0d977931c8e'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX1TIFvp/agent.15456'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[0.084089] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.087905] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver'], 'cwd': '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('VNCDESKTOP', 'pi4b:1 (pi4b)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi4b'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pi4b'), ('OLDPWD', '/home/pi4b/PBL5/ydlidar_ws/src'), ('DESKTOP_SESSION', 'xfce'), ('LIDAR_TYPE', 'x3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '15298'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi4b'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b714ff2e_175e_4313_a1de_e0d977931c8e'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX1TIFvp/agent.15456'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[0.103247] (-) TimerEvent: {}
+[0.204117] (-) TimerEvent: {}
+[0.305188] (-) TimerEvent: {}
+[0.376634] (openslam_gmapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.392410] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.405360] (-) TimerEvent: {}
+[0.506154] (-) TimerEvent: {}
+[0.607218] (-) TimerEvent: {}
+[0.652804] (openslam_gmapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.666365] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.683286] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.696369] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.707310] (-) TimerEvent: {}
+[0.808165] (-) TimerEvent: {}
+[0.909059] (-) TimerEvent: {}
+[1.009803] (-) TimerEvent: {}
+[1.018166] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.038355] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.044312] (openslam_gmapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.046468] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.047187] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.058236] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.065660] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.066379] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.067677] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.079772] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.110023] (-) TimerEvent: {}
+[1.211444] (-) TimerEvent: {}
+[1.312739] (-) TimerEvent: {}
+[1.413749] (-) TimerEvent: {}
+[1.435785] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.456302] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.463496] (openslam_gmapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.464563] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.466788] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.482590] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.483518] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.485135] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.493231] (openslam_gmapping) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.510355] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.513819] (-) TimerEvent: {}
+[1.614456] (-) TimerEvent: {}
+[1.715837] (-) TimerEvent: {}
+[1.816956] (-) TimerEvent: {}
+[1.917790] (-) TimerEvent: {}
+[2.018922] (-) TimerEvent: {}
+[2.120132] (-) TimerEvent: {}
+[2.220943] (-) TimerEvent: {}
+[2.317957] (openslam_gmapping) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.321263] (-) TimerEvent: {}
+[2.339762] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.421428] (-) TimerEvent: {}
+[2.522628] (-) TimerEvent: {}
+[2.623466] (-) TimerEvent: {}
+[2.669193] (openslam_gmapping) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.688184] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.723635] (-) TimerEvent: {}
+[2.824385] (-) TimerEvent: {}
+[2.925088] (-) TimerEvent: {}
+[2.951782] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.025245] (-) TimerEvent: {}
+[3.125907] (-) TimerEvent: {}
+[3.226692] (-) TimerEvent: {}
+[3.291630] (openslam_gmapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.324868] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.326838] (-) TimerEvent: {}
+[3.368042] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.379287] (openslam_gmapping) StdoutLine: {'line': b'-- Generating done\n'}
+[3.402451] (openslam_gmapping) StdoutLine: {'line': b'-- Build files have been written to: /home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping\n'}
+[3.424506] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[3.426736] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'build'}
+[3.426940] (-) TimerEvent: {}
+[3.435377] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping', '--', '-j4', '-l4'], 'cwd': '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping', 'env': OrderedDict([('VNCDESKTOP', 'pi4b:1 (pi4b)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi4b'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pi4b'), ('OLDPWD', '/home/pi4b/PBL5/ydlidar_ws/src'), ('DESKTOP_SESSION', 'xfce'), ('LIDAR_TYPE', 'x3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '15298'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi4b'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b714ff2e_175e_4313_a1de_e0d977931c8e'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX1TIFvp/agent.15456'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[3.438300] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.513225] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.527164] (-) TimerEvent: {}
+[3.627288] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.628146] (-) TimerEvent: {}
+[3.642116] (openslam_gmapping) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o\x1b[0m\n'}
+[3.649011] (openslam_gmapping) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o\x1b[0m\n'}
+[3.666943] (openslam_gmapping) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o\x1b[0m\n'}
+[3.668684] (openslam_gmapping) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o\x1b[0m\n'}
+[3.728358] (-) TimerEvent: {}
+[3.829771] (-) TimerEvent: {}
+[3.931280] (-) TimerEvent: {}
+[3.970730] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.996862] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.031534] (-) TimerEvent: {}
+[4.132510] (-) TimerEvent: {}
+[4.233436] (-) TimerEvent: {}
+[4.334505] (-) TimerEvent: {}
+[4.435514] (-) TimerEvent: {}
+[4.536722] (-) TimerEvent: {}
+[4.638310] (-) TimerEvent: {}
+[4.740071] (-) TimerEvent: {}
+[4.841897] (-) TimerEvent: {}
+[4.943840] (-) TimerEvent: {}
+[4.993735] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.044093] (-) TimerEvent: {}
+[5.145194] (-) TimerEvent: {}
+[5.246381] (-) TimerEvent: {}
+[5.328685] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.346785] (-) TimerEvent: {}
+[5.417732] (openslam_gmapping) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX static library libsensor_base.a\x1b[0m\n'}
+[5.446984] (-) TimerEvent: {}
+[5.548051] (-) TimerEvent: {}
+[5.574020] (openslam_gmapping) StdoutLine: {'line': b'[ 22%] Built target sensor_base\n'}
+[5.648264] (-) TimerEvent: {}
+[5.679430] (openslam_gmapping) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o\x1b[0m\n'}
+[5.687495] (openslam_gmapping) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o\x1b[0m\n'}
+[5.705545] (openslam_gmapping) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o\x1b[0m\n'}
+[5.748468] (-) TimerEvent: {}
+[5.849861] (-) TimerEvent: {}
+[5.891433] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX static library libutils.a\x1b[0m\n'}
+[5.905175] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.950131] (-) TimerEvent: {}
+[6.022927] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.052777] (-) TimerEvent: {}
+[6.149731] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] Built target utils\n'}
+[6.152974] (-) TimerEvent: {}
+[6.254127] (-) TimerEvent: {}
+[6.257754] (openslam_gmapping) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o\x1b[0m\n'}
+[6.354371] (-) TimerEvent: {}
+[6.455594] (-) TimerEvent: {}
+[6.551349] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.555112] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.555933] (-) TimerEvent: {}
+[6.657383] (-) TimerEvent: {}
+[6.759406] (-) TimerEvent: {}
+[6.860742] (-) TimerEvent: {}
+[6.962016] (-) TimerEvent: {}
+[7.060093] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.062381] (-) TimerEvent: {}
+[7.069531] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.162679] (-) TimerEvent: {}
+[7.264605] (-) TimerEvent: {}
+[7.366502] (-) TimerEvent: {}
+[7.468444] (-) TimerEvent: {}
+[7.539381] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.568703] (-) TimerEvent: {}
+[7.670561] (-) TimerEvent: {}
+[7.772119] (-) TimerEvent: {}
+[7.874106] (-) TimerEvent: {}
+[7.881815] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[7.974425] (-) TimerEvent: {}
+[8.050173] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[8.074700] (-) TimerEvent: {}
+[8.118659] (openslam_gmapping) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libsensor_odometry.a\x1b[0m\n'}
+[8.165072] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.174902] (-) TimerEvent: {}
+[8.276394] (-) TimerEvent: {}
+[8.377144] (-) TimerEvent: {}
+[8.427767] (openslam_gmapping) StdoutLine: {'line': b'[ 50%] Built target sensor_odometry\n'}
+[8.477351] (-) TimerEvent: {}
+[8.578201] (-) TimerEvent: {}
+[8.678938] (-) TimerEvent: {}
+[8.720202] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX static library libsensor_range.a\x1b[0m\n'}
+[8.753227] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.779159] (-) TimerEvent: {}
+[8.803737] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.805075] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver/src\n'}
+[8.805669] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.856418] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[8.857137] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[8.859696] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] Built target sensor_range\n'}
+[8.866201] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.879339] (-) TimerEvent: {}
+[8.880109] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.888413] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[8.940626] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.942745] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.949497] (openslam_gmapping) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o\x1b[0m\n'}
+[8.954953] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.964449] (openslam_gmapping) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o\x1b[0m\n'}
+[8.967416] (openslam_gmapping) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o\x1b[0m\n'}
+[8.971783] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.978734] (openslam_gmapping) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o\x1b[0m\n'}
+[8.979485] (-) TimerEvent: {}
+[9.080357] (-) TimerEvent: {}
+[9.087969] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[9.125003] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver\n'}
+[9.180618] (-) TimerEvent: {}
+[9.190803] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[9.194312] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[9.194508] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('VNCDESKTOP', 'pi4b:1 (pi4b)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi4b'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pi4b'), ('OLDPWD', '/home/pi4b/PBL5/ydlidar_ws/src'), ('DESKTOP_SESSION', 'xfce'), ('LIDAR_TYPE', 'x3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '15298'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi4b'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b714ff2e_175e_4313_a1de_e0d977931c8e'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX1TIFvp/agent.15456'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[9.280828] (-) TimerEvent: {}
+[9.382208] (-) TimerEvent: {}
+[9.483643] (-) TimerEvent: {}
+[9.585464] (-) TimerEvent: {}
+[9.687198] (-) TimerEvent: {}
+[9.768690] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[9.783460] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o\x1b[0m\n'}
+[9.787487] (-) TimerEvent: {}
+[9.889311] (-) TimerEvent: {}
+[9.990289] (-) TimerEvent: {}
+[10.091282] (-) TimerEvent: {}
+[10.192363] (-) TimerEvent: {}
+[10.293429] (-) TimerEvent: {}
+[10.394618] (-) TimerEvent: {}
+[10.495710] (-) TimerEvent: {}
+[10.597789] (-) TimerEvent: {}
+[10.698852] (-) TimerEvent: {}
+[10.800534] (-) TimerEvent: {}
+[10.902465] (-) TimerEvent: {}
+[11.003923] (-) TimerEvent: {}
+[11.105440] (-) TimerEvent: {}
+[11.206979] (-) TimerEvent: {}
+[11.308771] (-) TimerEvent: {}
+[11.410549] (-) TimerEvent: {}
+[11.512079] (-) TimerEvent: {}
+[11.613573] (-) TimerEvent: {}
+[11.715040] (-) TimerEvent: {}
+[11.817234] (-) TimerEvent: {}
+[11.919128] (-) TimerEvent: {}
+[12.021643] (-) TimerEvent: {}
+[12.124120] (-) TimerEvent: {}
+[12.225957] (-) TimerEvent: {}
+[12.327569] (-) TimerEvent: {}
+[12.429324] (-) TimerEvent: {}
+[12.531295] (-) TimerEvent: {}
+[12.633172] (-) TimerEvent: {}
+[12.734941] (-) TimerEvent: {}
+[12.836854] (-) TimerEvent: {}
+[12.939028] (-) TimerEvent: {}
+[13.040831] (-) TimerEvent: {}
+[13.142691] (-) TimerEvent: {}
+[13.244404] (-) TimerEvent: {}
+[13.346355] (-) TimerEvent: {}
+[13.448296] (-) TimerEvent: {}
+[13.550240] (-) TimerEvent: {}
+[13.653035] (-) TimerEvent: {}
+[13.754968] (-) TimerEvent: {}
+[13.856973] (-) TimerEvent: {}
+[13.959068] (-) TimerEvent: {}
+[14.060936] (-) TimerEvent: {}
+[14.163396] (-) TimerEvent: {}
+[14.266243] (-) TimerEvent: {}
+[14.368112] (-) TimerEvent: {}
+[14.470354] (-) TimerEvent: {}
+[14.572109] (-) TimerEvent: {}
+[14.674223] (-) TimerEvent: {}
+[14.776576] (-) TimerEvent: {}
+[14.878676] (-) TimerEvent: {}
+[14.980734] (-) TimerEvent: {}
+[15.082314] (-) TimerEvent: {}
+[15.183736] (-) TimerEvent: {}
+[15.285897] (-) TimerEvent: {}
+[15.387529] (-) TimerEvent: {}
+[15.484952] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX static library libscanmatcher.a\x1b[0m\n'}
+[15.487826] (-) TimerEvent: {}
+[15.589428] (-) TimerEvent: {}
+[15.674709] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] Built target scanmatcher\n'}
+[15.689659] (-) TimerEvent: {}
+[15.791279] (-) TimerEvent: {}
+[15.796897] (openslam_gmapping) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o\x1b[0m\n'}
+[15.833759] (openslam_gmapping) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o\x1b[0m\n'}
+[15.842379] (openslam_gmapping) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o\x1b[0m\n'}
+[15.855772] (openslam_gmapping) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o\x1b[0m\n'}
+[15.891510] (-) TimerEvent: {}
+[15.993471] (-) TimerEvent: {}
+[16.095269] (-) TimerEvent: {}
+[16.196965] (-) TimerEvent: {}
+[16.298581] (-) TimerEvent: {}
+[16.400541] (-) TimerEvent: {}
+[16.502633] (-) TimerEvent: {}
+[16.604227] (-) TimerEvent: {}
+[16.705909] (-) TimerEvent: {}
+[16.807726] (-) TimerEvent: {}
+[16.909658] (-) TimerEvent: {}
+[17.011413] (-) TimerEvent: {}
+[17.112668] (-) TimerEvent: {}
+[17.213780] (-) TimerEvent: {}
+[17.315006] (-) TimerEvent: {}
+[17.416412] (-) TimerEvent: {}
+[17.517832] (-) TimerEvent: {}
+[17.619235] (-) TimerEvent: {}
+[17.720413] (-) TimerEvent: {}
+[17.821805] (-) TimerEvent: {}
+[17.923152] (-) TimerEvent: {}
+[18.025012] (-) TimerEvent: {}
+[18.127028] (-) TimerEvent: {}
+[18.228859] (-) TimerEvent: {}
+[18.330664] (-) TimerEvent: {}
+[18.432299] (-) TimerEvent: {}
+[18.534383] (-) TimerEvent: {}
+[18.635466] (-) TimerEvent: {}
+[18.736626] (-) TimerEvent: {}
+[18.837793] (-) TimerEvent: {}
+[18.938872] (-) TimerEvent: {}
+[19.040086] (-) TimerEvent: {}
+[19.141269] (-) TimerEvent: {}
+[19.242644] (-) TimerEvent: {}
+[19.343947] (-) TimerEvent: {}
+[19.445018] (-) TimerEvent: {}
+[19.546330] (-) TimerEvent: {}
+[19.647602] (-) TimerEvent: {}
+[19.748855] (-) TimerEvent: {}
+[19.850201] (-) TimerEvent: {}
+[19.951271] (-) TimerEvent: {}
+[20.052438] (-) TimerEvent: {}
+[20.153617] (-) TimerEvent: {}
+[20.254730] (-) TimerEvent: {}
+[20.355993] (-) TimerEvent: {}
+[20.457243] (-) TimerEvent: {}
+[20.558899] (-) TimerEvent: {}
+[20.660647] (-) TimerEvent: {}
+[20.762662] (-) TimerEvent: {}
+[20.864407] (-) TimerEvent: {}
+[20.968662] (-) TimerEvent: {}
+[21.070454] (-) TimerEvent: {}
+[21.172196] (-) TimerEvent: {}
+[21.274002] (-) TimerEvent: {}
+[21.375099] (-) TimerEvent: {}
+[21.476793] (-) TimerEvent: {}
+[21.578542] (-) TimerEvent: {}
+[21.680222] (-) TimerEvent: {}
+[21.782039] (-) TimerEvent: {}
+[21.883776] (-) TimerEvent: {}
+[21.985505] (-) TimerEvent: {}
+[22.087240] (-) TimerEvent: {}
+[22.189014] (-) TimerEvent: {}
+[22.290806] (-) TimerEvent: {}
+[22.392485] (-) TimerEvent: {}
+[22.494106] (-) TimerEvent: {}
+[22.595919] (-) TimerEvent: {}
+[22.697677] (-) TimerEvent: {}
+[22.799371] (-) TimerEvent: {}
+[22.901069] (-) TimerEvent: {}
+[23.002795] (-) TimerEvent: {}
+[23.104622] (-) TimerEvent: {}
+[23.206502] (-) TimerEvent: {}
+[23.307498] (-) TimerEvent: {}
+[23.408853] (-) TimerEvent: {}
+[23.510049] (-) TimerEvent: {}
+[23.611076] (-) TimerEvent: {}
+[23.712172] (-) TimerEvent: {}
+[23.813296] (-) TimerEvent: {}
+[23.914490] (-) TimerEvent: {}
+[24.015565] (-) TimerEvent: {}
+[24.116602] (-) TimerEvent: {}
+[24.217566] (-) TimerEvent: {}
+[24.318628] (-) TimerEvent: {}
+[24.419754] (-) TimerEvent: {}
+[24.520805] (-) TimerEvent: {}
+[24.622098] (-) TimerEvent: {}
+[24.723218] (-) TimerEvent: {}
+[24.824311] (-) TimerEvent: {}
+[24.925338] (-) TimerEvent: {}
+[25.026445] (-) TimerEvent: {}
+[25.127520] (-) TimerEvent: {}
+[25.229181] (-) TimerEvent: {}
+[25.330811] (-) TimerEvent: {}
+[25.432849] (-) TimerEvent: {}
+[25.535224] (-) TimerEvent: {}
+[25.637198] (-) TimerEvent: {}
+[25.739181] (-) TimerEvent: {}
+[25.841478] (-) TimerEvent: {}
+[25.943135] (-) TimerEvent: {}
+[26.045161] (-) TimerEvent: {}
+[26.146897] (-) TimerEvent: {}
+[26.248559] (-) TimerEvent: {}
+[26.350312] (-) TimerEvent: {}
+[26.452290] (-) TimerEvent: {}
+[26.553861] (-) TimerEvent: {}
+[26.609103] (openslam_gmapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libgridfastslam.a\x1b[0m\n'}
+[26.654164] (-) TimerEvent: {}
+[26.756073] (-) TimerEvent: {}
+[26.792604] (openslam_gmapping) StdoutLine: {'line': b'[100%] Built target gridfastslam\n'}
+[26.846431] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[26.850413] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'install'}
+[26.856263] (-) TimerEvent: {}
+[26.891760] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping'], 'cwd': '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping', 'env': OrderedDict([('VNCDESKTOP', 'pi4b:1 (pi4b)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi4b'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pi4b'), ('OLDPWD', '/home/pi4b/PBL5/ydlidar_ws/src'), ('DESKTOP_SESSION', 'xfce'), ('LIDAR_TYPE', 'x3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '15298'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi4b'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b714ff2e_175e_4313_a1de_e0d977931c8e'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX1TIFvp/agent.15456'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[26.936783] (openslam_gmapping) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[26.939120] (openslam_gmapping) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.941594] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/libgridfastslam.a\n'}
+[26.956592] (-) TimerEvent: {}
+[26.995835] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/libscanmatcher.a\n'}
+[27.037473] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/libsensor_base.a\n'}
+[27.056847] (-) TimerEvent: {}
+[27.081756] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[27.126628] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[27.157075] (-) TimerEvent: {}
+[27.170045] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[27.173453] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[27.176237] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/libsensor_odometry.a\n'}
+[27.227656] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/libsensor_range.a\n'}
+[27.257289] (-) TimerEvent: {}
+[27.272480] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/libutils.a\n'}
+[27.319184] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[27.321820] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[27.326728] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[27.329458] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[27.338429] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h\n'}
+[27.357500] (-) TimerEvent: {}
+[27.381166] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h\n'}
+[27.426803] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h\n'}
+[27.457736] (-) TimerEvent: {}
+[27.462902] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[27.463788] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:191:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.464676] (ydlidar_ros2_driver) StderrLine: {'line': b'  191 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[27.465354] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.466205] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:192:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.467265] (ydlidar_ros2_driver) StderrLine: {'line': b'  192 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[27.468316] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[27.468999] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:193:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.469809] (ydlidar_ros2_driver) StderrLine: {'line': b'  193 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[27.470536] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[27.472028] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/grid/map.h\n'}
+[27.518178] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h\n'}
+[27.551767] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[27.553015] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:201:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.553696] (ydlidar_ros2_driver) StderrLine: {'line': b'  201 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[27.554334] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.554893] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:202:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.555429] (ydlidar_ros2_driver) StderrLine: {'line': b'  202 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[27.556028] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[27.556612] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:203:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.557158] (ydlidar_ros2_driver) StderrLine: {'line': b'  203 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[27.557684] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[27.558203] (-) TimerEvent: {}
+[27.566454] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx\n'}
+[27.609033] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h\n'}
+[27.653663] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/log/configuration.h\n'}
+[27.658438] (-) TimerEvent: {}
+[27.702682] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h\n'}
+[27.742728] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h\n'}
+[27.758708] (-) TimerEvent: {}
+[27.785492] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h\n'}
+[27.832168] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h\n'}
+[27.859092] (-) TimerEvent: {}
+[27.874179] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h\n'}
+[27.919397] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h\n'}
+[27.959312] (-) TimerEvent: {}
+[27.962591] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h\n'}
+[28.004479] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h\n'}
+[28.048685] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h\n'}
+[28.059519] (-) TimerEvent: {}
+[28.092712] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h\n'}
+[28.137305] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h\n'}
+[28.159764] (-) TimerEvent: {}
+[28.178124] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h\n'}
+[28.222314] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h\n'}
+[28.260093] (-) TimerEvent: {}
+[28.264596] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h\n'}
+[28.307684] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h\n'}
+[28.350612] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/point.h\n'}
+[28.360308] (-) TimerEvent: {}
+[28.399252] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/stat.h\n'}
+[28.450046] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping\n'}
+[28.460520] (-) TimerEvent: {}
+[28.501150] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping\n'}
+[28.545088] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh\n'}
+[28.560735] (-) TimerEvent: {}
+[28.587087] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv\n'}
+[28.638009] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh\n'}
+[28.660958] (-) TimerEvent: {}
+[28.680159] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv\n'}
+[28.727469] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash\n'}
+[28.761196] (-) TimerEvent: {}
+[28.770761] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh\n'}
+[28.813241] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh\n'}
+[28.857814] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv\n'}
+[28.861414] (-) TimerEvent: {}
+[28.902580] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv\n'}
+[28.947483] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping\n'}
+[28.961621] (-) TimerEvent: {}
+[28.988354] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.038552] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.061867] (-) TimerEvent: {}
+[29.079738] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake\n'}
+[29.124022] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake\n'}
+[29.163780] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml\n'}
+[29.166161] (-) TimerEvent: {}
+[29.228166] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[29.267260] (-) TimerEvent: {}
+[29.347688] (openslam_gmapping) JobEnded: {'identifier': 'openslam_gmapping', 'rc': 0}
+[29.353802] (slam_gmapping) JobStarted: {'identifier': 'slam_gmapping'}
+[29.382168] (-) TimerEvent: {}
+[29.411434] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'cmake'}
+[29.415697] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '/home/pi4b/PBL5/ydlidar_ws/src/slam_gmapping', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping'], 'cwd': '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping', 'env': OrderedDict([('VNCDESKTOP', 'pi4b:1 (pi4b)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi4b'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pi4b'), ('OLDPWD', '/home/pi4b/PBL5/ydlidar_ws/src'), ('DESKTOP_SESSION', 'xfce'), ('LIDAR_TYPE', 'x3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '15298'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi4b'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b714ff2e_175e_4313_a1de_e0d977931c8e'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX1TIFvp/agent.15456'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble')]), 'shell': False}
+[29.482455] (-) TimerEvent: {}
+[29.583501] (-) TimerEvent: {}
+[29.684402] (-) TimerEvent: {}
+[29.772788] (slam_gmapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[29.784624] (-) TimerEvent: {}
+[29.886145] (-) TimerEvent: {}
+[29.987607] (-) TimerEvent: {}
+[30.092099] (-) TimerEvent: {}
+[30.096569] (slam_gmapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[30.140692] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[30.192294] (-) TimerEvent: {}
+[30.293668] (-) TimerEvent: {}
+[30.395319] (-) TimerEvent: {}
+[30.496349] (-) TimerEvent: {}
+[30.547360] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[30.576895] (slam_gmapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[30.579178] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[30.581852] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[30.596524] (-) TimerEvent: {}
+[30.598926] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[30.696756] (-) TimerEvent: {}
+[30.798350] (-) TimerEvent: {}
+[30.899829] (-) TimerEvent: {}
+[31.001758] (-) TimerEvent: {}
+[31.043646] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[31.079193] (slam_gmapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[31.082169] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[31.085605] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[31.105376] (-) TimerEvent: {}
+[31.151273] (slam_gmapping) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[31.205612] (-) TimerEvent: {}
+[31.306829] (-) TimerEvent: {}
+[31.407752] (-) TimerEvent: {}
+[31.509337] (-) TimerEvent: {}
+[31.610807] (-) TimerEvent: {}
+[31.712291] (-) TimerEvent: {}
+[31.813927] (-) TimerEvent: {}
+[31.915333] (-) TimerEvent: {}
+[32.016880] (-) TimerEvent: {}
+[32.118302] (-) TimerEvent: {}
+[32.195125] (slam_gmapping) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[32.218558] (-) TimerEvent: {}
+[32.320479] (-) TimerEvent: {}
+[32.422718] (-) TimerEvent: {}
+[32.523626] (-) TimerEvent: {}
+[32.625533] (-) TimerEvent: {}
+[32.641636] (slam_gmapping) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[32.725893] (-) TimerEvent: {}
+[32.827374] (-) TimerEvent: {}
+[32.928912] (-) TimerEvent: {}
+[32.992307] (slam_gmapping) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[33.029143] (-) TimerEvent: {}
+[33.130811] (-) TimerEvent: {}
+[33.233275] (-) TimerEvent: {}
+[33.334714] (-) TimerEvent: {}
+[33.360531] (slam_gmapping) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[33.415424] (slam_gmapping) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[33.434913] (-) TimerEvent: {}
+[33.488386] (slam_gmapping) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[33.535172] (-) TimerEvent: {}
+[33.614974] (slam_gmapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[33.635452] (-) TimerEvent: {}
+[33.737467] (-) TimerEvent: {}
+[33.761459] (slam_gmapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[33.837676] (-) TimerEvent: {}
+[33.938545] (-) TimerEvent: {}
+[33.952963] (slam_gmapping) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[34.038792] (-) TimerEvent: {}
+[34.140559] (-) TimerEvent: {}
+[34.156038] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)\n'}
+[34.240782] (-) TimerEvent: {}
+[34.303943] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[34.341008] (-) TimerEvent: {}
+[34.442550] (-) TimerEvent: {}
+[34.543523] (-) TimerEvent: {}
+[34.645418] (-) TimerEvent: {}
+[34.746339] (-) TimerEvent: {}
+[34.836377] (slam_gmapping) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[34.846539] (-) TimerEvent: {}
+[34.863460] (slam_gmapping) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[34.946811] (-) TimerEvent: {}
+[35.048576] (-) TimerEvent: {}
+[35.149539] (-) TimerEvent: {}
+[35.250522] (-) TimerEvent: {}
+[35.352350] (-) TimerEvent: {}
+[35.454186] (-) TimerEvent: {}
+[35.555172] (-) TimerEvent: {}
+[35.568068] (slam_gmapping) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[35.655538] (-) TimerEvent: {}
+[35.757872] (-) TimerEvent: {}
+[35.859357] (-) TimerEvent: {}
+[35.878382] (slam_gmapping) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[35.959579] (-) TimerEvent: {}
+[36.061139] (-) TimerEvent: {}
+[36.162005] (-) TimerEvent: {}
+[36.262889] (-) TimerEvent: {}
+[36.357467] (slam_gmapping) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[36.363120] (-) TimerEvent: {}
+[36.444615] (slam_gmapping) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[36.463319] (-) TimerEvent: {}
+[36.565021] (-) TimerEvent: {}
+[36.666720] (-) TimerEvent: {}
+[36.768375] (-) TimerEvent: {}
+[36.870177] (-) TimerEvent: {}
+[36.873636] (slam_gmapping) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[36.875242] (slam_gmapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[36.970426] (-) TimerEvent: {}
+[37.071323] (-) TimerEvent: {}
+[37.172202] (-) TimerEvent: {}
+[37.273328] (-) TimerEvent: {}
+[37.295643] (slam_gmapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[37.301809] (slam_gmapping) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[37.373581] (-) TimerEvent: {}
+[37.474766] (-) TimerEvent: {}
+[37.575754] (-) TimerEvent: {}
+[37.676603] (-) TimerEvent: {}
+[37.777460] (-) TimerEvent: {}
+[37.878291] (-) TimerEvent: {}
+[37.979178] (-) TimerEvent: {}
+[37.995716] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[38.079439] (-) TimerEvent: {}
+[38.179751] (slam_gmapping) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[38.180651] (-) TimerEvent: {}
+[38.186314] (slam_gmapping) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[38.187367] (slam_gmapping) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[38.216665] (slam_gmapping) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[38.280896] (-) TimerEvent: {}
+[38.326554] (slam_gmapping) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[38.381113] (-) TimerEvent: {}
+[38.436738] (slam_gmapping) StdoutLine: {'line': b'-- Found openslam_gmapping: 0.1.2 (/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)\n'}
+[38.465417] (slam_gmapping) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[38.481365] (-) TimerEvent: {}
+[38.582793] (-) TimerEvent: {}
+[38.684369] (-) TimerEvent: {}
+[38.785282] (-) TimerEvent: {}
+[38.886978] (-) TimerEvent: {}
+[38.988704] (-) TimerEvent: {}
+[39.090785] (-) TimerEvent: {}
+[39.113652] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[39.114926] (slam_gmapping) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pi4b/PBL5/ydlidar_ws/src/slam_gmapping/include>\n'}
+[39.115670] (slam_gmapping) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[39.126939] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[39.130076] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[39.130832] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[39.140434] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[39.141460] (slam_gmapping) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[39.145031] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[39.162840] (slam_gmapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[39.190998] (-) TimerEvent: {}
+[39.286592] (slam_gmapping) StdoutLine: {'line': b'-- Generating done\n'}
+[39.291298] (-) TimerEvent: {}
+[39.324187] (slam_gmapping) StdoutLine: {'line': b'-- Build files have been written to: /home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping\n'}
+[39.380331] (slam_gmapping) CommandEnded: {'returncode': 0}
+[39.382945] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'build'}
+[39.384494] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping', '--', '-j4', '-l4'], 'cwd': '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping', 'env': OrderedDict([('VNCDESKTOP', 'pi4b:1 (pi4b)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi4b'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pi4b'), ('OLDPWD', '/home/pi4b/PBL5/ydlidar_ws/src'), ('DESKTOP_SESSION', 'xfce'), ('LIDAR_TYPE', 'x3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '15298'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi4b'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b714ff2e_175e_4313_a1de_e0d977931c8e'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX1TIFvp/agent.15456'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble')]), 'shell': False}
+[39.392218] (-) TimerEvent: {}
+[39.493665] (-) TimerEvent: {}
+[39.596687] (-) TimerEvent: {}
+[39.692094] (slam_gmapping) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.o\x1b[0m\n'}
+[39.697175] (-) TimerEvent: {}
+[39.712138] (slam_gmapping) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o\x1b[0m\n'}
+[39.797614] (-) TimerEvent: {}
+[39.900462] (-) TimerEvent: {}
+[40.002597] (-) TimerEvent: {}
+[40.105270] (-) TimerEvent: {}
+[40.206854] (-) TimerEvent: {}
+[40.308934] (-) TimerEvent: {}
+[40.410514] (-) TimerEvent: {}
+[40.512055] (-) TimerEvent: {}
+[40.613067] (-) TimerEvent: {}
+[40.716147] (-) TimerEvent: {}
+[40.817259] (-) TimerEvent: {}
+[40.918300] (-) TimerEvent: {}
+[41.019497] (-) TimerEvent: {}
+[41.120486] (-) TimerEvent: {}
+[41.221287] (-) TimerEvent: {}
+[41.323900] (-) TimerEvent: {}
+[41.424783] (-) TimerEvent: {}
+[41.525839] (-) TimerEvent: {}
+[41.627030] (-) TimerEvent: {}
+[41.727933] (-) TimerEvent: {}
+[41.828938] (-) TimerEvent: {}
+[41.930962] (-) TimerEvent: {}
+[42.032594] (-) TimerEvent: {}
+[42.134248] (-) TimerEvent: {}
+[42.235791] (-) TimerEvent: {}
+[42.337426] (-) TimerEvent: {}
+[42.438886] (-) TimerEvent: {}
+[42.540449] (-) TimerEvent: {}
+[42.641910] (-) TimerEvent: {}
+[42.743386] (-) TimerEvent: {}
+[42.845128] (-) TimerEvent: {}
+[42.946612] (-) TimerEvent: {}
+[43.048505] (-) TimerEvent: {}
+[43.150189] (-) TimerEvent: {}
+[43.251830] (-) TimerEvent: {}
+[43.353715] (-) TimerEvent: {}
+[43.455728] (-) TimerEvent: {}
+[43.557872] (-) TimerEvent: {}
+[43.659569] (-) TimerEvent: {}
+[43.761247] (-) TimerEvent: {}
+[43.863163] (-) TimerEvent: {}
+[43.965056] (-) TimerEvent: {}
+[44.066958] (-) TimerEvent: {}
+[44.168645] (-) TimerEvent: {}
+[44.270403] (-) TimerEvent: {}
+[44.372140] (-) TimerEvent: {}
+[44.475160] (-) TimerEvent: {}
+[44.577074] (-) TimerEvent: {}
+[44.678946] (-) TimerEvent: {}
+[44.780938] (-) TimerEvent: {}
+[44.882710] (-) TimerEvent: {}
+[44.984606] (-) TimerEvent: {}
+[45.086723] (-) TimerEvent: {}
+[45.188808] (-) TimerEvent: {}
+[45.197389] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_node\x1b[0m\n'}
+[45.289017] (-) TimerEvent: {}
+[45.390780] (-) TimerEvent: {}
+[45.492886] (-) TimerEvent: {}
+[45.594847] (-) TimerEvent: {}
+[45.696768] (-) TimerEvent: {}
+[45.799054] (-) TimerEvent: {}
+[45.900754] (-) TimerEvent: {}
+[46.002547] (-) TimerEvent: {}
+[46.104162] (-) TimerEvent: {}
+[46.205316] (-) TimerEvent: {}
+[46.306590] (-) TimerEvent: {}
+[46.408002] (-) TimerEvent: {}
+[46.509150] (-) TimerEvent: {}
+[46.610535] (-) TimerEvent: {}
+[46.711835] (-) TimerEvent: {}
+[46.816868] (-) TimerEvent: {}
+[46.918973] (-) TimerEvent: {}
+[47.025708] (-) TimerEvent: {}
+[47.127607] (-) TimerEvent: {}
+[47.229962] (-) TimerEvent: {}
+[47.331993] (-) TimerEvent: {}
+[47.433766] (-) TimerEvent: {}
+[47.534183] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] Built target ydlidar_ros2_driver_node\n'}
+[47.535280] (-) TimerEvent: {}
+[47.637545] (-) TimerEvent: {}
+[47.738497] (-) TimerEvent: {}
+[47.839450] (-) TimerEvent: {}
+[47.940506] (-) TimerEvent: {}
+[48.042427] (-) TimerEvent: {}
+[48.144080] (-) TimerEvent: {}
+[48.245905] (-) TimerEvent: {}
+[48.347586] (-) TimerEvent: {}
+[48.449305] (-) TimerEvent: {}
+[48.551054] (-) TimerEvent: {}
+[48.652837] (-) TimerEvent: {}
+[48.754565] (-) TimerEvent: {}
+[48.855513] (-) TimerEvent: {}
+[48.957206] (-) TimerEvent: {}
+[49.058891] (-) TimerEvent: {}
+[49.159797] (-) TimerEvent: {}
+[49.261593] (-) TimerEvent: {}
+[49.363445] (-) TimerEvent: {}
+[49.465109] (-) TimerEvent: {}
+[49.566091] (-) TimerEvent: {}
+[49.667781] (-) TimerEvent: {}
+[49.769490] (-) TimerEvent: {}
+[49.871150] (-) TimerEvent: {}
+[49.973163] (-) TimerEvent: {}
+[50.074804] (-) TimerEvent: {}
+[50.175789] (-) TimerEvent: {}
+[50.277526] (-) TimerEvent: {}
+[50.379304] (-) TimerEvent: {}
+[50.481065] (-) TimerEvent: {}
+[50.582730] (-) TimerEvent: {}
+[50.684517] (-) TimerEvent: {}
+[50.786210] (-) TimerEvent: {}
+[50.888013] (-) TimerEvent: {}
+[50.989748] (-) TimerEvent: {}
+[51.091513] (-) TimerEvent: {}
+[51.193341] (-) TimerEvent: {}
+[51.295279] (-) TimerEvent: {}
+[51.396969] (-) TimerEvent: {}
+[51.497878] (-) TimerEvent: {}
+[51.598838] (-) TimerEvent: {}
+[51.700577] (-) TimerEvent: {}
+[51.802240] (-) TimerEvent: {}
+[51.903233] (-) TimerEvent: {}
+[52.004964] (-) TimerEvent: {}
+[52.106770] (-) TimerEvent: {}
+[52.207712] (-) TimerEvent: {}
+[52.309445] (-) TimerEvent: {}
+[52.411258] (-) TimerEvent: {}
+[52.512928] (-) TimerEvent: {}
+[52.614608] (-) TimerEvent: {}
+[52.716459] (-) TimerEvent: {}
+[52.818222] (-) TimerEvent: {}
+[52.919932] (-) TimerEvent: {}
+[53.022241] (-) TimerEvent: {}
+[53.123204] (-) TimerEvent: {}
+[53.224191] (-) TimerEvent: {}
+[53.325973] (-) TimerEvent: {}
+[53.428648] (-) TimerEvent: {}
+[53.530679] (-) TimerEvent: {}
+[53.632445] (-) TimerEvent: {}
+[53.734166] (-) TimerEvent: {}
+[53.835993] (-) TimerEvent: {}
+[53.944622] (-) TimerEvent: {}
+[54.045972] (-) TimerEvent: {}
+[54.148472] (-) TimerEvent: {}
+[54.250311] (-) TimerEvent: {}
+[54.352100] (-) TimerEvent: {}
+[54.453899] (-) TimerEvent: {}
+[54.555706] (-) TimerEvent: {}
+[54.657638] (-) TimerEvent: {}
+[54.759713] (-) TimerEvent: {}
+[54.860869] (-) TimerEvent: {}
+[54.962644] (-) TimerEvent: {}
+[55.064397] (-) TimerEvent: {}
+[55.166125] (-) TimerEvent: {}
+[55.267962] (-) TimerEvent: {}
+[55.369720] (-) TimerEvent: {}
+[55.471436] (-) TimerEvent: {}
+[55.575519] (-) TimerEvent: {}
+[55.676569] (-) TimerEvent: {}
+[55.778395] (-) TimerEvent: {}
+[55.879254] (-) TimerEvent: {}
+[55.980533] (-) TimerEvent: {}
+[56.081861] (-) TimerEvent: {}
+[56.183464] (-) TimerEvent: {}
+[56.543321] (-) TimerEvent: {}
+[56.644905] (-) TimerEvent: {}
+[56.745804] (-) TimerEvent: {}
+[56.846747] (-) TimerEvent: {}
+[56.948417] (-) TimerEvent: {}
+[57.049385] (-) TimerEvent: {}
+[57.151175] (-) TimerEvent: {}
+[57.252791] (-) TimerEvent: {}
+[57.353693] (-) TimerEvent: {}
+[57.455307] (-) TimerEvent: {}
+[57.557039] (-) TimerEvent: {}
+[57.657956] (-) TimerEvent: {}
+[57.687086] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9\x1b[m\x1b[K,\n'}
+[57.688043] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[57.688703] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/src/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[57.689288] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[57.689941] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation\x07-Wmisleading-indentation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[57.690563] (slam_gmapping) StderrLine: {'line': b'  140 |         \x1b[01;35m\x1b[Kif\x1b[m\x1b[K (count>0)\n'}
+[57.691137] (slam_gmapping) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[57.691707] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[57.699196] (slam_gmapping) StderrLine: {'line': b'  142 |                 \x1b[01;36m\x1b[Kout\x1b[m\x1b[K++;\n'}
+[57.702509] (slam_gmapping) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[57.758237] (-) TimerEvent: {}
+[57.836529] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5\x1b[m\x1b[K,\n'}
+[57.837708] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[57.838656] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[57.839469] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/src/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[57.840481] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KGMapping::PointAccumulator::PointAccumulator(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[57.841429] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:17:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[57.842363] (slam_gmapping) StderrLine: {'line': b'   17 |         PointAccumulator(\x1b[01;35m\x1b[Kint i\x1b[m\x1b[K): acc(0,0), n(0), visits(0){assert(i==-1);}\n'}
+[57.843249] (slam_gmapping) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~^\x1b[m\x1b[K\n'}
+[57.858491] (-) TimerEvent: {}
+[57.893561] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:70\x1b[m\x1b[K,\n'}
+[57.894389] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:38\x1b[m\x1b[K,\n'}
+[57.896916] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:38\x1b[m\x1b[K,\n'}
+[57.897662] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:26\x1b[m\x1b[K,\n'}
+[57.898404] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/src/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[57.899121] (slam_gmapping) StderrLine: {'line': b'/usr/include/c++/11/bits/stl_pair.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::pair<typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type, typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type> std::make_pair(_T1&&, _T2&&) [with _T1 = GMapping::point<double>&; _T2 = GMapping::point<double>&; typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type = GMapping::point<double>; typename std::decay<_Tp2>::type = std::decay<GMapping::point<double>&>::type; typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type = GMapping::point<double>; typename std::decay<_Tp>::type = std::decay<GMapping::point<double>&>::type]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[57.899840] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:127:34:\x1b[m\x1b[K   required from here\n'}
+[57.900605] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:567:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<GMapping::point<double>, GMapping::point<double> >\x1b[m\x1b[K\xe2\x80\x99 when C++17 is enabled changed to match C++14 \x1b]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_base\x07in GCC 10.1\x1b]8;;\x07\n'}
+[57.901395] (slam_gmapping) StderrLine: {'line': b'  567 |     \x1b[01;36m\x1b[Kmake_pair\x1b[m\x1b[K(_T1&& __x, _T2&& __y)\n'}
+[57.902088] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[57.958756] (-) TimerEvent: {}
+[58.060348] (-) TimerEvent: {}
+[58.161920] (-) TimerEvent: {}
+[58.263288] (-) TimerEvent: {}
+[58.364931] (-) TimerEvent: {}
+[58.466495] (-) TimerEvent: {}
+[58.567472] (-) TimerEvent: {}
+[58.669184] (-) TimerEvent: {}
+[58.771207] (-) TimerEvent: {}
+[58.874503] (-) TimerEvent: {}
+[58.975468] (-) TimerEvent: {}
+[59.076462] (-) TimerEvent: {}
+[59.178374] (-) TimerEvent: {}
+[59.280450] (-) TimerEvent: {}
+[59.384259] (-) TimerEvent: {}
+[59.485692] (-) TimerEvent: {}
+[59.524334] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_client\x1b[0m\n'}
+[59.585943] (-) TimerEvent: {}
+[59.687397] (-) TimerEvent: {}
+[59.788838] (-) TimerEvent: {}
+[59.890920] (-) TimerEvent: {}
+[59.993280] (-) TimerEvent: {}
+[60.095633] (-) TimerEvent: {}
+[60.197966] (-) TimerEvent: {}
+[60.300597] (-) TimerEvent: {}
+[60.403486] (-) TimerEvent: {}
+[60.506276] (-) TimerEvent: {}
+[60.611280] (-) TimerEvent: {}
+[60.713705] (-) TimerEvent: {}
+[60.816283] (-) TimerEvent: {}
+[60.918494] (-) TimerEvent: {}
+[61.020617] (-) TimerEvent: {}
+[61.122402] (-) TimerEvent: {}
+[61.224851] (-) TimerEvent: {}
+[61.326502] (-) TimerEvent: {}
+[61.428219] (-) TimerEvent: {}
+[61.529253] (-) TimerEvent: {}
+[61.631631] (-) TimerEvent: {}
+[61.672718] (slam_gmapping) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable slam_gmapping_node\x1b[0m\n'}
+[61.731854] (-) TimerEvent: {}
+[61.833168] (-) TimerEvent: {}
+[61.908453] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[61.933599] (-) TimerEvent: {}
+[61.972768] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[61.975102] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[61.975367] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('VNCDESKTOP', 'pi4b:1 (pi4b)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi4b'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pi4b'), ('OLDPWD', '/home/pi4b/PBL5/ydlidar_ws/src'), ('DESKTOP_SESSION', 'xfce'), ('LIDAR_TYPE', 'x3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '15298'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi4b'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b714ff2e_175e_4313_a1de_e0d977931c8e'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX1TIFvp/agent.15456'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/pi4b/PBL5/ydlidar_ws/build/ydlidar_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[62.022900] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[62.025101] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[62.027698] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[62.033787] (-) TimerEvent: {}
+[62.076566] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[62.124066] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[62.134054] (-) TimerEvent: {}
+[62.170721] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[62.218445] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[62.234291] (-) TimerEvent: {}
+[62.267222] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[62.314495] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[62.334512] (-) TimerEvent: {}
+[62.352280] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G4.yaml\n'}
+[62.362022] (slam_gmapping) StdoutLine: {'line': b'[ 75%] Built target slam_gmapping_node\n'}
+[62.392972] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[62.430113] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[62.434692] (-) TimerEvent: {}
+[62.466011] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS5.yaml\n'}
+[62.501430] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[62.534956] (-) TimerEvent: {}
+[62.536723] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[62.573813] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini-Plus-SH.yaml\n'}
+[62.609552] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini.yaml\n'}
+[62.635152] (-) TimerEvent: {}
+[62.646001] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[62.683336] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X3.yaml\n'}
+[62.719847] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[62.735368] (-) TimerEvent: {}
+[62.755027] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[62.791663] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/sdm15.yaml\n'}
+[62.828193] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[62.835560] (-) TimerEvent: {}
+[62.869890] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[62.904359] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[62.935819] (-) TimerEvent: {}
+[62.944979] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[62.985252] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[63.028311] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[63.036023] (-) TimerEvent: {}
+[63.069432] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[63.108417] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[63.136244] (-) TimerEvent: {}
+[63.143205] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[63.181628] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[63.218159] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[63.236441] (-) TimerEvent: {}
+[63.253959] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[63.290733] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[63.327642] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[63.336617] (-) TimerEvent: {}
+[63.370627] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[63.402921] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[63.436848] (-) TimerEvent: {}
+[63.438681] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[63.476285] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[63.517829] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[63.537076] (-) TimerEvent: {}
+[63.603130] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[63.637562] (-) TimerEvent: {}
+[63.738534] (-) TimerEvent: {}
+[63.839655] (-) TimerEvent: {}
+[63.940443] (-) TimerEvent: {}
+[64.041173] (-) TimerEvent: {}
+[64.141906] (-) TimerEvent: {}
+[64.242675] (-) TimerEvent: {}
+[64.343425] (-) TimerEvent: {}
+[64.444188] (-) TimerEvent: {}
+[64.544978] (-) TimerEvent: {}
+[64.645714] (-) TimerEvent: {}
+[64.746479] (-) TimerEvent: {}
+[64.847221] (-) TimerEvent: {}
+[64.948016] (-) TimerEvent: {}
+[65.048813] (-) TimerEvent: {}
+[65.149572] (-) TimerEvent: {}
+[65.250388] (-) TimerEvent: {}
+[65.351253] (-) TimerEvent: {}
+[65.452069] (-) TimerEvent: {}
+[65.552846] (-) TimerEvent: {}
+[65.653599] (-) TimerEvent: {}
+[65.754337] (-) TimerEvent: {}
+[65.855310] (-) TimerEvent: {}
+[65.956667] (-) TimerEvent: {}
+[66.057422] (-) TimerEvent: {}
+[66.158219] (-) TimerEvent: {}
+[66.259021] (-) TimerEvent: {}
+[66.360612] (-) TimerEvent: {}
+[66.461350] (-) TimerEvent: {}
+[66.562143] (-) TimerEvent: {}
+[66.662981] (-) TimerEvent: {}
+[66.763799] (-) TimerEvent: {}
+[66.864586] (-) TimerEvent: {}
+[66.965324] (-) TimerEvent: {}
+[67.066051] (-) TimerEvent: {}
+[67.166828] (-) TimerEvent: {}
+[67.267573] (-) TimerEvent: {}
+[67.368396] (-) TimerEvent: {}
+[67.469130] (-) TimerEvent: {}
+[67.569867] (-) TimerEvent: {}
+[67.670600] (-) TimerEvent: {}
+[67.771351] (-) TimerEvent: {}
+[67.872132] (-) TimerEvent: {}
+[67.972823] (-) TimerEvent: {}
+[68.073765] (-) TimerEvent: {}
+[68.174638] (-) TimerEvent: {}
+[68.275479] (-) TimerEvent: {}
+[68.376289] (-) TimerEvent: {}
+[68.477020] (-) TimerEvent: {}
+[68.577790] (-) TimerEvent: {}
+[68.678521] (-) TimerEvent: {}
+[68.779261] (-) TimerEvent: {}
+[68.880050] (-) TimerEvent: {}
+[68.980774] (-) TimerEvent: {}
+[69.081508] (-) TimerEvent: {}
+[69.182295] (-) TimerEvent: {}
+[69.283098] (-) TimerEvent: {}
+[69.383821] (-) TimerEvent: {}
+[69.484579] (-) TimerEvent: {}
+[69.585317] (-) TimerEvent: {}
+[69.686055] (-) TimerEvent: {}
+[69.786788] (-) TimerEvent: {}
+[69.887574] (-) TimerEvent: {}
+[69.988313] (-) TimerEvent: {}
+[70.089079] (-) TimerEvent: {}
+[70.189799] (-) TimerEvent: {}
+[70.290502] (-) TimerEvent: {}
+[70.391223] (-) TimerEvent: {}
+[70.491984] (-) TimerEvent: {}
+[70.592742] (-) TimerEvent: {}
+[70.693439] (-) TimerEvent: {}
+[70.794156] (-) TimerEvent: {}
+[70.895296] (-) TimerEvent: {}
+[70.996025] (-) TimerEvent: {}
+[71.096772] (-) TimerEvent: {}
+[71.197477] (-) TimerEvent: {}
+[71.298196] (-) TimerEvent: {}
+[71.398943] (-) TimerEvent: {}
+[71.499709] (-) TimerEvent: {}
+[71.600428] (-) TimerEvent: {}
+[71.701136] (-) TimerEvent: {}
+[71.801804] (-) TimerEvent: {}
+[71.902486] (-) TimerEvent: {}
+[72.003193] (-) TimerEvent: {}
+[72.103958] (-) TimerEvent: {}
+[72.204686] (-) TimerEvent: {}
+[72.305463] (-) TimerEvent: {}
+[72.406178] (-) TimerEvent: {}
+[72.506890] (-) TimerEvent: {}
+[72.607660] (-) TimerEvent: {}
+[72.708449] (-) TimerEvent: {}
+[72.809168] (-) TimerEvent: {}
+[72.909884] (-) TimerEvent: {}
+[73.010620] (-) TimerEvent: {}
+[73.111361] (-) TimerEvent: {}
+[73.212233] (-) TimerEvent: {}
+[73.313949] (-) TimerEvent: {}
+[73.415135] (-) TimerEvent: {}
+[73.515920] (-) TimerEvent: {}
+[73.616686] (-) TimerEvent: {}
+[73.717431] (-) TimerEvent: {}
+[73.818168] (-) TimerEvent: {}
+[73.918918] (-) TimerEvent: {}
+[74.019635] (-) TimerEvent: {}
+[74.120408] (-) TimerEvent: {}
+[74.221155] (-) TimerEvent: {}
+[74.321879] (-) TimerEvent: {}
+[74.422587] (-) TimerEvent: {}
+[74.523299] (-) TimerEvent: {}
+[74.624033] (-) TimerEvent: {}
+[74.724759] (-) TimerEvent: {}
+[74.825682] (-) TimerEvent: {}
+[74.926425] (-) TimerEvent: {}
+[75.027156] (-) TimerEvent: {}
+[75.127932] (-) TimerEvent: {}
+[75.228640] (-) TimerEvent: {}
+[75.329401] (-) TimerEvent: {}
+[75.430111] (-) TimerEvent: {}
+[75.530835] (-) TimerEvent: {}
+[75.631567] (-) TimerEvent: {}
+[75.732321] (-) TimerEvent: {}
+[75.833035] (-) TimerEvent: {}
+[75.933792] (-) TimerEvent: {}
+[76.034526] (-) TimerEvent: {}
+[76.135245] (-) TimerEvent: {}
+[76.235985] (-) TimerEvent: {}
+[76.336716] (-) TimerEvent: {}
+[76.437415] (-) TimerEvent: {}
+[76.538179] (-) TimerEvent: {}
+[76.639106] (-) TimerEvent: {}
+[76.739953] (-) TimerEvent: {}
+[76.840670] (-) TimerEvent: {}
+[76.941396] (-) TimerEvent: {}
+[77.042165] (-) TimerEvent: {}
+[77.142900] (-) TimerEvent: {}
+[77.243600] (-) TimerEvent: {}
+[77.344385] (-) TimerEvent: {}
+[77.445095] (-) TimerEvent: {}
+[77.545819] (-) TimerEvent: {}
+[77.646545] (-) TimerEvent: {}
+[77.747272] (-) TimerEvent: {}
+[77.848013] (-) TimerEvent: {}
+[77.948719] (-) TimerEvent: {}
+[78.049450] (-) TimerEvent: {}
+[78.150192] (-) TimerEvent: {}
+[78.250967] (-) TimerEvent: {}
+[78.351702] (-) TimerEvent: {}
+[78.452498] (-) TimerEvent: {}
+[78.553215] (-) TimerEvent: {}
+[78.653926] (-) TimerEvent: {}
+[78.754728] (-) TimerEvent: {}
+[78.855441] (-) TimerEvent: {}
+[78.956198] (-) TimerEvent: {}
+[79.056901] (-) TimerEvent: {}
+[79.157617] (-) TimerEvent: {}
+[79.258318] (-) TimerEvent: {}
+[79.359094] (-) TimerEvent: {}
+[79.459829] (-) TimerEvent: {}
+[79.560613] (-) TimerEvent: {}
+[79.661340] (-) TimerEvent: {}
+[79.762066] (-) TimerEvent: {}
+[79.862805] (-) TimerEvent: {}
+[79.963571] (-) TimerEvent: {}
+[80.064346] (-) TimerEvent: {}
+[80.165062] (-) TimerEvent: {}
+[80.265794] (-) TimerEvent: {}
+[80.366516] (-) TimerEvent: {}
+[80.467309] (-) TimerEvent: {}
+[80.568031] (-) TimerEvent: {}
+[80.668738] (-) TimerEvent: {}
+[80.769455] (-) TimerEvent: {}
+[80.870170] (-) TimerEvent: {}
+[80.970876] (-) TimerEvent: {}
+[81.071592] (-) TimerEvent: {}
+[81.172452] (-) TimerEvent: {}
+[81.273172] (-) TimerEvent: {}
+[81.373915] (-) TimerEvent: {}
+[81.474710] (-) TimerEvent: {}
+[81.575564] (-) TimerEvent: {}
+[81.676556] (-) TimerEvent: {}
+[81.777418] (-) TimerEvent: {}
+[81.878176] (-) TimerEvent: {}
+[81.979006] (-) TimerEvent: {}
+[82.079767] (-) TimerEvent: {}
+[82.180619] (-) TimerEvent: {}
+[82.281743] (-) TimerEvent: {}
+[82.382533] (-) TimerEvent: {}
+[82.483349] (-) TimerEvent: {}
+[82.584193] (-) TimerEvent: {}
+[82.685234] (-) TimerEvent: {}
+[82.785990] (-) TimerEvent: {}
+[82.886716] (-) TimerEvent: {}
+[82.987522] (-) TimerEvent: {}
+[83.088307] (-) TimerEvent: {}
+[83.189026] (-) TimerEvent: {}
+[83.289738] (-) TimerEvent: {}
+[83.390465] (-) TimerEvent: {}
+[83.491197] (-) TimerEvent: {}
+[83.591977] (-) TimerEvent: {}
+[83.692687] (-) TimerEvent: {}
+[83.793417] (-) TimerEvent: {}
+[83.894125] (-) TimerEvent: {}
+[83.994828] (-) TimerEvent: {}
+[84.095542] (-) TimerEvent: {}
+[84.196319] (-) TimerEvent: {}
+[84.297026] (-) TimerEvent: {}
+[84.397741] (-) TimerEvent: {}
+[84.498456] (-) TimerEvent: {}
+[84.599464] (-) TimerEvent: {}
+[84.701515] (-) TimerEvent: {}
+[84.802280] (-) TimerEvent: {}
+[84.903014] (-) TimerEvent: {}
+[85.003790] (-) TimerEvent: {}
+[85.104551] (-) TimerEvent: {}
+[85.205276] (-) TimerEvent: {}
+[85.306005] (-) TimerEvent: {}
+[85.406727] (-) TimerEvent: {}
+[85.507524] (-) TimerEvent: {}
+[85.608343] (-) TimerEvent: {}
+[85.709087] (-) TimerEvent: {}
+[85.809841] (-) TimerEvent: {}
+[85.910601] (-) TimerEvent: {}
+[86.011414] (-) TimerEvent: {}
+[86.112221] (-) TimerEvent: {}
+[86.212968] (-) TimerEvent: {}
+[86.313724] (-) TimerEvent: {}
+[86.414427] (-) TimerEvent: {}
+[86.515133] (-) TimerEvent: {}
+[86.615959] (-) TimerEvent: {}
+[86.716687] (-) TimerEvent: {}
+[86.817404] (-) TimerEvent: {}
+[86.918128] (-) TimerEvent: {}
+[87.019025] (-) TimerEvent: {}
+[87.119818] (-) TimerEvent: {}
+[87.220623] (-) TimerEvent: {}
+[87.321333] (-) TimerEvent: {}
+[87.422040] (-) TimerEvent: {}
+[87.522769] (-) TimerEvent: {}
+[87.623490] (-) TimerEvent: {}
+[87.724304] (-) TimerEvent: {}
+[87.825027] (-) TimerEvent: {}
+[87.925781] (-) TimerEvent: {}
+[88.026511] (-) TimerEvent: {}
+[88.127237] (-) TimerEvent: {}
+[88.228042] (-) TimerEvent: {}
+[88.328744] (-) TimerEvent: {}
+[88.429448] (-) TimerEvent: {}
+[88.530171] (-) TimerEvent: {}
+[88.630905] (-) TimerEvent: {}
+[88.731652] (-) TimerEvent: {}
+[88.832476] (-) TimerEvent: {}
+[88.933174] (-) TimerEvent: {}
+[89.033898] (-) TimerEvent: {}
+[89.134604] (-) TimerEvent: {}
+[89.235339] (-) TimerEvent: {}
+[89.336088] (-) TimerEvent: {}
+[89.436805] (-) TimerEvent: {}
+[89.537500] (-) TimerEvent: {}
+[89.638248] (-) TimerEvent: {}
+[89.739013] (-) TimerEvent: {}
+[89.839764] (-) TimerEvent: {}
+[89.940532] (-) TimerEvent: {}
+[90.041232] (-) TimerEvent: {}
+[90.141931] (-) TimerEvent: {}
+[90.242660] (-) TimerEvent: {}
+[90.343406] (-) TimerEvent: {}
+[90.444187] (-) TimerEvent: {}
+[90.544922] (-) TimerEvent: {}
+[90.645779] (-) TimerEvent: {}
+[90.746524] (-) TimerEvent: {}
+[90.847326] (-) TimerEvent: {}
+[90.948232] (-) TimerEvent: {}
+[91.049084] (-) TimerEvent: {}
+[91.149831] (-) TimerEvent: {}
+[91.250565] (-) TimerEvent: {}
+[91.351299] (-) TimerEvent: {}
+[91.452080] (-) TimerEvent: {}
+[91.552813] (-) TimerEvent: {}
+[91.653670] (-) TimerEvent: {}
+[91.754411] (-) TimerEvent: {}
+[91.855186] (-) TimerEvent: {}
+[91.956028] (-) TimerEvent: {}
+[92.056758] (-) TimerEvent: {}
+[92.157551] (-) TimerEvent: {}
+[92.258281] (-) TimerEvent: {}
+[92.359031] (-) TimerEvent: {}
+[92.459742] (-) TimerEvent: {}
+[92.560511] (-) TimerEvent: {}
+[92.661199] (-) TimerEvent: {}
+[92.761951] (-) TimerEvent: {}
+[92.862662] (-) TimerEvent: {}
+[92.963424] (-) TimerEvent: {}
+[93.064205] (-) TimerEvent: {}
+[93.164904] (-) TimerEvent: {}
+[93.265607] (-) TimerEvent: {}
+[93.366379] (-) TimerEvent: {}
+[93.467110] (-) TimerEvent: {}
+[93.567837] (-) TimerEvent: {}
+[93.668601] (-) TimerEvent: {}
+[93.769303] (-) TimerEvent: {}
+[93.870252] (-) TimerEvent: {}
+[93.971020] (-) TimerEvent: {}
+[94.071789] (-) TimerEvent: {}
+[94.172581] (-) TimerEvent: {}
+[94.273269] (-) TimerEvent: {}
+[94.374046] (-) TimerEvent: {}
+[94.474796] (-) TimerEvent: {}
+[94.575518] (-) TimerEvent: {}
+[94.676273] (-) TimerEvent: {}
+[94.776981] (-) TimerEvent: {}
+[94.877738] (-) TimerEvent: {}
+[94.978553] (-) TimerEvent: {}
+[95.079410] (-) TimerEvent: {}
+[95.180255] (-) TimerEvent: {}
+[95.280963] (-) TimerEvent: {}
+[95.381755] (-) TimerEvent: {}
+[95.482556] (-) TimerEvent: {}
+[95.583285] (-) TimerEvent: {}
+[95.684032] (-) TimerEvent: {}
+[95.784757] (-) TimerEvent: {}
+[95.885513] (-) TimerEvent: {}
+[95.986248] (-) TimerEvent: {}
+[96.087045] (-) TimerEvent: {}
+[96.187839] (-) TimerEvent: {}
+[96.288638] (-) TimerEvent: {}
+[96.389356] (-) TimerEvent: {}
+[96.490095] (-) TimerEvent: {}
+[96.590900] (-) TimerEvent: {}
+[96.691677] (-) TimerEvent: {}
+[96.792439] (-) TimerEvent: {}
+[96.893147] (-) TimerEvent: {}
+[96.993897] (-) TimerEvent: {}
+[97.094691] (-) TimerEvent: {}
+[97.195431] (-) TimerEvent: {}
+[97.296274] (-) TimerEvent: {}
+[97.397043] (-) TimerEvent: {}
+[97.497743] (-) TimerEvent: {}
+[97.598492] (-) TimerEvent: {}
+[97.699219] (-) TimerEvent: {}
+[97.800032] (-) TimerEvent: {}
+[97.900705] (-) TimerEvent: {}
+[98.001459] (-) TimerEvent: {}
+[98.102210] (-) TimerEvent: {}
+[98.203023] (-) TimerEvent: {}
+[98.303834] (-) TimerEvent: {}
+[98.404665] (-) TimerEvent: {}
+[98.505454] (-) TimerEvent: {}
+[98.606266] (-) TimerEvent: {}
+[98.707043] (-) TimerEvent: {}
+[98.807943] (-) TimerEvent: {}
+[98.908789] (-) TimerEvent: {}
+[99.009547] (-) TimerEvent: {}
+[99.110272] (-) TimerEvent: {}
+[99.211051] (-) TimerEvent: {}
+[99.313903] (-) TimerEvent: {}
+[99.414639] (-) TimerEvent: {}
+[99.515323] (-) TimerEvent: {}
+[99.616038] (-) TimerEvent: {}
+[99.716749] (-) TimerEvent: {}
+[99.817493] (-) TimerEvent: {}
+[99.918309] (-) TimerEvent: {}
+[100.019050] (-) TimerEvent: {}
+[100.119830] (-) TimerEvent: {}
+[100.220579] (-) TimerEvent: {}
+[100.321319] (-) TimerEvent: {}
+[100.422083] (-) TimerEvent: {}
+[100.522823] (-) TimerEvent: {}
+[100.623526] (-) TimerEvent: {}
+[100.724325] (-) TimerEvent: {}
+[100.825088] (-) TimerEvent: {}
+[100.925849] (-) TimerEvent: {}
+[101.026659] (-) TimerEvent: {}
+[101.127433] (-) TimerEvent: {}
+[101.228209] (-) TimerEvent: {}
+[101.328944] (-) TimerEvent: {}
+[101.429712] (-) TimerEvent: {}
+[101.530522] (-) TimerEvent: {}
+[101.631274] (-) TimerEvent: {}
+[101.732037] (-) TimerEvent: {}
+[101.832777] (-) TimerEvent: {}
+[101.933555] (-) TimerEvent: {}
+[102.034335] (-) TimerEvent: {}
+[102.135149] (-) TimerEvent: {}
+[102.235920] (-) TimerEvent: {}
+[102.336632] (-) TimerEvent: {}
+[102.437386] (-) TimerEvent: {}
+[102.538105] (-) TimerEvent: {}
+[102.638869] (-) TimerEvent: {}
+[102.739594] (-) TimerEvent: {}
+[102.840381] (-) TimerEvent: {}
+[102.941100] (-) TimerEvent: {}
+[103.041803] (-) TimerEvent: {}
+[103.142529] (-) TimerEvent: {}
+[103.243321] (-) TimerEvent: {}
+[103.344034] (-) TimerEvent: {}
+[103.444730] (-) TimerEvent: {}
+[103.545482] (-) TimerEvent: {}
+[103.646259] (-) TimerEvent: {}
+[103.747001] (-) TimerEvent: {}
+[103.847776] (-) TimerEvent: {}
+[103.948539] (-) TimerEvent: {}
+[104.049277] (-) TimerEvent: {}
+[104.150023] (-) TimerEvent: {}
+[104.250753] (-) TimerEvent: {}
+[104.355267] (-) TimerEvent: {}
+[104.456033] (-) TimerEvent: {}
+[104.556772] (-) TimerEvent: {}
+[104.657469] (-) TimerEvent: {}
+[104.758215] (-) TimerEvent: {}
+[104.859011] (-) TimerEvent: {}
+[104.959737] (-) TimerEvent: {}
+[105.060760] (-) TimerEvent: {}
+[105.162083] (-) TimerEvent: {}
+[105.262840] (-) TimerEvent: {}
+[105.363625] (-) TimerEvent: {}
+[105.464367] (-) TimerEvent: {}
+[105.565254] (-) TimerEvent: {}
+[105.666037] (-) TimerEvent: {}
+[105.766869] (-) TimerEvent: {}
+[105.867785] (-) TimerEvent: {}
+[105.968571] (-) TimerEvent: {}
+[106.069296] (-) TimerEvent: {}
+[106.170034] (-) TimerEvent: {}
+[106.270863] (-) TimerEvent: {}
+[106.371625] (-) TimerEvent: {}
+[106.472479] (-) TimerEvent: {}
+[106.573519] (-) TimerEvent: {}
+[106.674377] (-) TimerEvent: {}
+[106.775121] (-) TimerEvent: {}
+[106.875955] (-) TimerEvent: {}
+[106.976760] (-) TimerEvent: {}
+[107.077495] (-) TimerEvent: {}
+[107.178217] (-) TimerEvent: {}
+[107.279110] (-) TimerEvent: {}
+[107.379814] (-) TimerEvent: {}
+[107.480732] (-) TimerEvent: {}
+[107.581586] (-) TimerEvent: {}
+[107.682371] (-) TimerEvent: {}
+[107.783164] (-) TimerEvent: {}
+[107.883904] (-) TimerEvent: {}
+[107.984609] (-) TimerEvent: {}
+[108.085428] (-) TimerEvent: {}
+[108.186266] (-) TimerEvent: {}
+[108.287365] (-) TimerEvent: {}
+[108.388261] (-) TimerEvent: {}
+[108.489146] (-) TimerEvent: {}
+[108.589918] (-) TimerEvent: {}
+[108.690808] (-) TimerEvent: {}
+[108.791596] (-) TimerEvent: {}
+[108.892465] (-) TimerEvent: {}
+[108.993225] (-) TimerEvent: {}
+[109.093996] (-) TimerEvent: {}
+[109.194786] (-) TimerEvent: {}
+[109.295525] (-) TimerEvent: {}
+[109.396424] (-) TimerEvent: {}
+[109.497174] (-) TimerEvent: {}
+[109.598025] (-) TimerEvent: {}
+[109.698752] (-) TimerEvent: {}
+[109.799494] (-) TimerEvent: {}
+[109.900456] (-) TimerEvent: {}
+[110.001269] (-) TimerEvent: {}
+[110.102122] (-) TimerEvent: {}
+[110.202855] (-) TimerEvent: {}
+[110.303547] (-) TimerEvent: {}
+[110.404290] (-) TimerEvent: {}
+[110.505050] (-) TimerEvent: {}
+[110.605743] (-) TimerEvent: {}
+[110.706484] (-) TimerEvent: {}
+[110.807220] (-) TimerEvent: {}
+[110.907990] (-) TimerEvent: {}
+[111.008708] (-) TimerEvent: {}
+[111.109553] (-) TimerEvent: {}
+[111.210277] (-) TimerEvent: {}
+[111.311106] (-) TimerEvent: {}
+[111.411946] (-) TimerEvent: {}
+[111.512682] (-) TimerEvent: {}
+[111.613517] (-) TimerEvent: {}
+[111.714251] (-) TimerEvent: {}
+[111.814949] (-) TimerEvent: {}
+[111.915661] (-) TimerEvent: {}
+[112.016461] (-) TimerEvent: {}
+[112.117220] (-) TimerEvent: {}
+[112.217980] (-) TimerEvent: {}
+[112.318728] (-) TimerEvent: {}
+[112.419387] (-) TimerEvent: {}
+[112.520173] (-) TimerEvent: {}
+[112.621343] (-) TimerEvent: {}
+[112.722201] (-) TimerEvent: {}
+[112.823167] (-) TimerEvent: {}
+[112.924015] (-) TimerEvent: {}
+[113.024819] (-) TimerEvent: {}
+[113.125792] (-) TimerEvent: {}
+[113.226664] (-) TimerEvent: {}
+[113.327414] (-) TimerEvent: {}
+[113.428153] (-) TimerEvent: {}
+[113.528876] (-) TimerEvent: {}
+[113.629580] (-) TimerEvent: {}
+[113.730275] (-) TimerEvent: {}
+[113.830961] (-) TimerEvent: {}
+[113.931661] (-) TimerEvent: {}
+[114.032399] (-) TimerEvent: {}
+[114.133279] (-) TimerEvent: {}
+[114.234493] (-) TimerEvent: {}
+[114.335419] (-) TimerEvent: {}
+[114.350156] (slam_gmapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libslam_gmapping.so\x1b[0m\n'}
+[114.435680] (-) TimerEvent: {}
+[114.536475] (-) TimerEvent: {}
+[114.637362] (-) TimerEvent: {}
+[114.738303] (-) TimerEvent: {}
+[114.839252] (-) TimerEvent: {}
+[114.940223] (-) TimerEvent: {}
+[115.041025] (-) TimerEvent: {}
+[115.141902] (-) TimerEvent: {}
+[115.242603] (-) TimerEvent: {}
+[115.343316] (-) TimerEvent: {}
+[115.431086] (slam_gmapping) StdoutLine: {'line': b'[100%] Built target slam_gmapping\n'}
+[115.443539] (-) TimerEvent: {}
+[115.475160] (slam_gmapping) CommandEnded: {'returncode': 0}
+[115.478641] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'install'}
+[115.484973] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping'], 'cwd': '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping', 'env': OrderedDict([('VNCDESKTOP', 'pi4b:1 (pi4b)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi4b'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pi4b'), ('OLDPWD', '/home/pi4b/PBL5/ydlidar_ws/src'), ('DESKTOP_SESSION', 'xfce'), ('LIDAR_TYPE', 'x3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '15298'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi4b'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b714ff2e_175e_4313_a1de_e0d977931c8e'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX1TIFvp/agent.15456'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/pi4b/PBL5/ydlidar_ws/build/slam_gmapping'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:abstract=/tmp/dbus-L1Cio1BJ2a,guid=29e182fd91ce7c34d6feb52f69c61c72'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble')]), 'shell': False}
+[115.515542] (slam_gmapping) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[115.517211] (slam_gmapping) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[115.518850] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping_node\n'}
+[115.543698] (-) TimerEvent: {}
+[115.552687] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/lib/libslam_gmapping.so\n'}
+[115.589454] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py\n'}
+[115.625646] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/config/slam_gmapping.yaml\n'}
+[115.643934] (-) TimerEvent: {}
+[115.659917] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping\n'}
+[115.695797] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping\n'}
+[115.731281] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh\n'}
+[115.744073] (-) TimerEvent: {}
+[115.765860] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv\n'}
+[115.801129] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh\n'}
+[115.834711] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv\n'}
+[115.844249] (-) TimerEvent: {}
+[115.868843] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash\n'}
+[115.905154] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh\n'}
+[115.944476] (-) TimerEvent: {}
+[115.947786] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh\n'}
+[115.986452] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv\n'}
+[116.021085] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.dsv\n'}
+[116.044661] (-) TimerEvent: {}
+[116.055778] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping\n'}
+[116.092016] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/rclcpp_components/slam_gmapping\n'}
+[116.127782] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake\n'}
+[116.144947] (-) TimerEvent: {}
+[116.160801] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake\n'}
+[116.198434] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.xml\n'}
+[116.237047] (slam_gmapping) CommandEnded: {'returncode': 0}
+[116.245118] (-) TimerEvent: {}
+[116.320668] (slam_gmapping) JobEnded: {'identifier': 'slam_gmapping', 'rc': 0}
+[116.323716] (-) EventReactorShutdown: {}

@@ -1,0 +1,110 @@
+[0.073s] Invoking command in '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/ydlidar_ws/src/openslam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping
+[0.375s] -- The C compiler identification is GNU 11.4.0
+[0.651s] -- The CXX compiler identification is GNU 11.4.0
+[0.681s] -- Detecting C compiler ABI info
+[1.016s] -- Detecting C compiler ABI info - done
+[1.043s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.044s] -- Detecting C compile features
+[1.045s] -- Detecting C compile features - done
+[1.056s] -- Detecting CXX compiler ABI info
+[1.434s] -- Detecting CXX compiler ABI info - done
+[1.461s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.462s] -- Detecting CXX compile features
+[1.464s] -- Detecting CXX compile features - done
+[1.491s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.316s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.667s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.290s] -- Configuring done
+[3.377s] -- Generating done
+[3.400s] -- Build files have been written to: /home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping
+[3.422s] Invoked command in '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/ydlidar_ws/src/openslam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping
+[3.434s] Invoking command in '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping -- -j4 -l4
+[3.640s] [  4%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o[0m
+[3.647s] [  9%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o[0m
+[3.665s] [ 13%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o[0m
+[3.667s] [ 18%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o[0m
+[5.415s] [ 22%] [32m[1mLinking CXX static library libsensor_base.a[0m
+[5.572s] [ 22%] Built target sensor_base
+[5.677s] [ 27%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o[0m
+[5.685s] [ 31%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o[0m
+[5.703s] [ 36%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o[0m
+[5.889s] [ 40%] [32m[1mLinking CXX static library libutils.a[0m
+[6.148s] [ 40%] Built target utils
+[6.256s] [ 45%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o[0m
+[8.116s] [ 50%] [32m[1mLinking CXX static library libsensor_odometry.a[0m
+[8.426s] [ 50%] Built target sensor_odometry
+[8.718s] [ 54%] [32m[1mLinking CXX static library libsensor_range.a[0m
+[8.857s] [ 54%] Built target sensor_range
+[8.947s] [ 59%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o[0m
+[8.962s] [ 63%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o[0m
+[8.965s] [ 68%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o[0m
+[8.976s] [ 72%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o[0m
+[15.483s] [ 77%] [32m[1mLinking CXX static library libscanmatcher.a[0m
+[15.673s] [ 77%] Built target scanmatcher
+[15.795s] [ 81%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o[0m
+[15.832s] [ 86%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o[0m
+[15.840s] [ 90%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o[0m
+[15.854s] [ 95%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o[0m
+[26.607s] [100%] [32m[1mLinking CXX static library libgridfastslam.a[0m
+[26.793s] [100%] Built target gridfastslam
+[26.845s] Invoked command in '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping -- -j4 -l4
+[26.890s] Invoking command in '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping
+[26.935s] -- Install configuration: "Release"
+[26.937s] -- Execute custom install script
+[26.939s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/libgridfastslam.a
+[26.994s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/libscanmatcher.a
+[27.035s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/libsensor_base.a
+[27.079s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[27.124s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[27.168s] -- Up-to-date symlink: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[27.171s] -- Up-to-date symlink: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[27.174s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/libsensor_odometry.a
+[27.226s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/libsensor_range.a
+[27.270s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib/libutils.a
+[27.317s] -- Up-to-date symlink: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[27.320s] -- Up-to-date symlink: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[27.324s] -- Up-to-date symlink: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[27.327s] -- Up-to-date symlink: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[27.336s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[27.379s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[27.425s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[27.470s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/grid/map.h
+[27.516s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[27.564s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[27.607s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[27.651s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/log/configuration.h
+[27.700s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[27.740s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[27.783s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[27.830s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[27.872s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[27.917s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[27.960s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[28.002s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[28.047s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[28.091s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[28.135s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[28.176s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[28.220s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[28.262s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[28.305s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[28.348s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/point.h
+[28.397s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/stat.h
+[28.448s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[28.499s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[28.543s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[28.585s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[28.636s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[28.678s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[28.726s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[28.769s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[28.813s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[28.856s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[28.900s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[28.945s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[28.986s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[29.036s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.078s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[29.124s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[29.163s] -- Symlinking: /home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[29.226s] Invoked command in '/home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/ydlidar_ws/build/openslam_gmapping

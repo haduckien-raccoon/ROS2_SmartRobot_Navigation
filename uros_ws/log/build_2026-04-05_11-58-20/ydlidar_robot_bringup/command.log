@@ -1,0 +1,4 @@
+Invoking command in '/home/pi4b/PBL5/uros_ws/build/ydlidar_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/uros_ws/build/ydlidar_robot_bringup -- -j4 -l4
+Invoked command in '/home/pi4b/PBL5/uros_ws/build/ydlidar_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/uros_ws/build/ydlidar_robot_bringup -- -j4 -l4
+Invoking command in '/home/pi4b/PBL5/uros_ws/build/ydlidar_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/uros_ws/build/ydlidar_robot_bringup
+Invoked command in '/home/pi4b/PBL5/uros_ws/build/ydlidar_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/uros_ws/build/ydlidar_robot_bringup

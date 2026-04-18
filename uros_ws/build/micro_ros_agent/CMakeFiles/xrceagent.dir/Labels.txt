@@ -1,0 +1,13 @@
+# Target labels
+ xrceagent
+# Source files and their labels
+/home/pi4b/PBL5/uros_ws/build/micro_ros_agent/CMakeFiles/xrceagent
+/home/pi4b/PBL5/uros_ws/build/micro_ros_agent/CMakeFiles/xrceagent.rule
+/home/pi4b/PBL5/uros_ws/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule
+/home/pi4b/PBL5/uros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule
+/home/pi4b/PBL5/uros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule
+/home/pi4b/PBL5/uros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule
+/home/pi4b/PBL5/uros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule
+/home/pi4b/PBL5/uros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule
+/home/pi4b/PBL5/uros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule
+/home/pi4b/PBL5/uros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule
