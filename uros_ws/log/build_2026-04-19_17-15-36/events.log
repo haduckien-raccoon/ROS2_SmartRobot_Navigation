@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.001396] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.002140] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.002431] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.002934] (-) JobUnselected: {'identifier': 'saye_bringup'}
+[0.003189] (-) JobUnselected: {'identifier': 'saye_description'}
+[0.003331] (-) JobUnselected: {'identifier': 'saye_msgs'}
+[0.003452] (-) JobUnselected: {'identifier': 'ydlidar_robot_bringup'}
+[0.003619] (saye_control) JobQueued: {'identifier': 'saye_control', 'dependencies': OrderedDict([('saye_msgs', '/home/pi4b/PBL5/uros_ws/install/saye_msgs')])}
+[0.003752] (saye_control) JobStarted: {'identifier': 'saye_control'}
+[0.098053] (-) TimerEvent: {}
+[0.103017] (saye_control) JobProgress: {'identifier': 'saye_control', 'progress': 'cmake'}
+[0.118490] (saye_control) Command: {'cmd': ['/usr/bin/cmake', '/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control', '-DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/uros_ws/install/saye_control'], 'cwd': '/home/pi4b/PBL5/uros_ws/build/saye_control', 'env': OrderedDict([('VNCDESKTOP', 'pi4b:1 (pi4b)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi4b'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1163'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi4b/PBL5/uros_ws/install/saye_msgs/lib:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent/lib:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs/lib:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/lib:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pi4b'), ('OLDPWD', '/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/src'), ('DESKTOP_SESSION', 'xfce'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('LIDAR_TYPE', 'x3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1032'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-3s8iYyXFz8,guid=5232b0da1c9527c8b860f16669e4763e'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/pi4b/PBL5/uros_ws/install:/home/pi4b/PBL5/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi4b'), ('JOURNAL_STREAM', '8:23860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pi4b:@/tmp/.ICE-unix/1061,unix/pi4b:/tmp/.ICE-unix/1061'), ('INVOCATION_ID', 'fa48247e1e0846ff893c6bfedf2cca30'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'vi_VN'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXrYtDRF/agent.1162'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:9724c2bc-e1c3-4b98-b484-1a1c315230ae'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/pi4b/PBL5/uros_ws/build/saye_control'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping')]), 'shell': False}
+[0.198303] (-) TimerEvent: {}
+[0.300423] (-) TimerEvent: {}
+[0.401114] (-) TimerEvent: {}
+[0.412049] (saye_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.501302] (-) TimerEvent: {}
+[0.602041] (-) TimerEvent: {}
+[0.703547] (-) TimerEvent: {}
+[0.804568] (-) TimerEvent: {}
+[0.905327] (-) TimerEvent: {}
+[1.006128] (-) TimerEvent: {}
+[1.106985] (-) TimerEvent: {}
+[1.132479] (saye_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.207162] (-) TimerEvent: {}
+[1.229998] (saye_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.307349] (-) TimerEvent: {}
+[1.408168] (-) TimerEvent: {}
+[1.509075] (-) TimerEvent: {}
+[1.511267] (saye_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.529968] (saye_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.578288] (saye_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.609257] (-) TimerEvent: {}
+[1.643156] (saye_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.709442] (-) TimerEvent: {}
+[1.727429] (saye_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.809615] (-) TimerEvent: {}
+[1.910405] (-) TimerEvent: {}
+[1.949637] (saye_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.964411] (saye_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.010587] (-) TimerEvent: {}
+[2.111382] (-) TimerEvent: {}
+[2.212123] (-) TimerEvent: {}
+[2.313056] (-) TimerEvent: {}
+[2.413917] (-) TimerEvent: {}
+[2.514646] (-) TimerEvent: {}
+[2.615479] (-) TimerEvent: {}
+[2.716325] (-) TimerEvent: {}
+[2.817341] (-) TimerEvent: {}
+[2.918109] (-) TimerEvent: {}
+[3.019168] (-) TimerEvent: {}
+[3.119876] (-) TimerEvent: {}
+[3.220704] (-) TimerEvent: {}
+[3.252781] (saye_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.320984] (-) TimerEvent: {}
+[3.421951] (-) TimerEvent: {}
+[3.522845] (-) TimerEvent: {}
+[3.575125] (saye_control) StdoutLine: {'line': b'-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.578585] (saye_control) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.623024] (-) TimerEvent: {}
+[3.723864] (-) TimerEvent: {}
+[3.753263] (saye_control) StdoutLine: {'line': b'-- Found saye_msgs: 0.0.0 (/home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake)\n'}
+[3.824054] (-) TimerEvent: {}
+[3.924778] (-) TimerEvent: {}
+[4.025604] (-) TimerEvent: {}
+[4.127154] (-) TimerEvent: {}
+[4.230557] (-) TimerEvent: {}
+[4.301572] (saye_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.330622] (-) TimerEvent: {}
+[4.432262] (-) TimerEvent: {}
+[4.534211] (-) TimerEvent: {}
+[4.634171] (saye_control) StderrLine: {'line': b"Error parsing '/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/package.xml':\n"}
+[4.636248] (-) TimerEvent: {}
+[4.737641] (-) TimerEvent: {}
+[4.838544] (-) TimerEvent: {}
+[4.895204] (saye_control) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.896196] (saye_control) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[4.897473] (saye_control) StderrLine: {'line': b'    main()\n'}
+[4.898646] (saye_control) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[4.900357] (saye_control) StderrLine: {'line': b'    raise e\n'}
+[4.901362] (saye_control) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[4.903018] (saye_control) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[4.904907] (saye_control) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[4.911548] (saye_control) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[4.914034] (saye_control) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/package.xml':\n"}
+[4.916211] (saye_control) StderrLine: {'line': b'Error(s):\n'}
+[4.917877] (saye_control) StderrLine: {'line': b"- The generic dependency on 'rclpy' is redundant with: exec_depend\n"}
+[4.920364] (saye_control) StderrLine: {'line': b"- The generic dependency on 'geometry_msgs' is redundant with: exec_depend\n"}
+[4.938887] (-) TimerEvent: {}
+[5.015772] (saye_control) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[5.016360] (saye_control) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[5.016771] (saye_control) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[5.017264] (saye_control) StderrLine: {'line': b'  /home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/package.xml\n'}
+[5.020148] (saye_control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.020574] (saye_control) StdoutLine: {'line': b'See also "/home/pi4b/PBL5/uros_ws/build/saye_control/CMakeFiles/CMakeOutput.log".\n'}
+[5.020981] (saye_control) StderrLine: {'line': b'  /home/pi4b/PBL5/uros_ws/build/saye_control/ament_cmake_core/package.cmake)\n'}
+[5.021327] (saye_control) StderrLine: {'line': b'  returned error code 1\n'}
+[5.021652] (saye_control) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.022049] (saye_control) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[5.022424] (saye_control) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[5.022882] (saye_control) StderrLine: {'line': b'  CMakeLists.txt:45 (ament_lint_auto_find_test_dependencies)\n'}
+[5.023595] (saye_control) StderrLine: {'line': b'\n'}
+[5.024456] (saye_control) StderrLine: {'line': b'\x1b[0m\n'}
+[5.039185] (-) TimerEvent: {}
+[5.054082] (saye_control) CommandEnded: {'returncode': 1}
+[5.056881] (saye_control) JobEnded: {'identifier': 'saye_control', 'rc': 1}
+[5.069525] (-) EventReactorShutdown: {}

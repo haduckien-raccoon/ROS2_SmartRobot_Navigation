@@ -1,0 +1,7 @@
+{
+  "package_name": "saye_msgs",
+  "non_idl_tuples": [
+    "/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_msgs:msg/Map.msg",
+    "/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_msgs:srv/ShareMap.srv"
+  ]
+}

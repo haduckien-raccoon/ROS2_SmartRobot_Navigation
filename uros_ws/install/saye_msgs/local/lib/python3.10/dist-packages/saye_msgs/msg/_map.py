@@ -1,0 +1,1 @@
+/home/pi4b/PBL5/uros_ws/build/saye_msgs/rosidl_generator_py/saye_msgs/msg/_map.py

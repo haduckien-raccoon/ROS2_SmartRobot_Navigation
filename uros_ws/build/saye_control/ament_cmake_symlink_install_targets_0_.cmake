@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pi4b/PBL5/uros_ws/build/saye_control/main" "/home/pi4b/PBL5/uros_ws/build/saye_control/client" "TARGETS" "main" "client" "DESTINATION" "lib/saye_control")

@@ -1,0 +1,212 @@
+[0.147s] Invoking command in '/home/pi4b/PBL5/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/uros_ws/src/micro_ros_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/uros_ws/install/micro_ros_setup
+[0.526s] -- The C compiler identification is GNU 11.4.0
+[0.886s] -- The CXX compiler identification is GNU 11.4.0
+[0.918s] -- Detecting C compiler ABI info
+[1.359s] -- Detecting C compiler ABI info - done
+[1.392s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.393s] -- Detecting C compile features
+[1.395s] -- Detecting C compile features - done
+[1.410s] -- Detecting CXX compiler ABI info
+[1.931s] -- Detecting CXX compiler ABI info - done
+[1.961s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.963s] -- Detecting CXX compile features
+[1.965s] -- Detecting CXX compile features - done
+[2.003s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.192s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.662s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.104s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.701s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.973s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.008s] -- Added test 'lint_cmake' to check CMake code style
+[5.026s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.174s] -- Added test 'xmllint' to check XML markup files
+[5.188s] -- Configuring done
+[5.212s] -- Generating done
+[5.221s] -- Build files have been written to: /home/pi4b/PBL5/uros_ws/build/micro_ros_setup
+[5.250s] Invoked command in '/home/pi4b/PBL5/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/uros_ws/src/micro_ros_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/uros_ws/install/micro_ros_setup
+[5.253s] Invoking command in '/home/pi4b/PBL5/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/uros_ws/build/micro_ros_setup -- -j4 -l4
+[5.440s] Invoked command in '/home/pi4b/PBL5/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/uros_ws/build/micro_ros_setup -- -j4 -l4
+[5.486s] Invoking command in '/home/pi4b/PBL5/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/uros_ws/build/micro_ros_setup
+[5.524s] -- Install configuration: ""
+[5.526s] -- Execute custom install script
+[5.528s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[5.570s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[5.612s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[5.654s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[5.703s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[5.750s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[5.786s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[5.823s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[5.859s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[5.897s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[5.934s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[5.971s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[6.011s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[6.051s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[6.089s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[6.139s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[6.183s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[6.235s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[6.278s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[6.343s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[6.380s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[6.421s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[6.465s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[6.503s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[6.543s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[6.584s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config
+[6.585s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/android
+[6.586s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[6.593s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/android/generic
+[6.594s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[6.596s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[6.598s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[6.600s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[6.601s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[6.603s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[6.605s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[6.607s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[6.609s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[6.610s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/zephyr
+[6.611s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[6.613s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/zephyr/generic
+[6.613s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[6.621s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[6.625s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[6.628s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[6.628s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[6.630s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[6.632s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[6.635s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[6.638s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[6.641s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[6.643s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[6.646s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/mbed
+[6.648s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[6.651s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/mbed/generic
+[6.653s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[6.658s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/mbed/generic/build.sh
+[6.661s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/mbed/generic/package.xml
+[6.664s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[6.669s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[6.672s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/mbed/generic/board.repos
+[6.676s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/mbed/generic/create.sh
+[6.679s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[6.684s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/mbed/list_apps.sh
+[6.688s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[6.691s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/utils.sh
+[6.695s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[6.698s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos
+[6.701s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[6.703s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[6.709s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[6.712s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[6.716s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[6.717s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[6.720s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[6.723s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[6.726s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[6.729s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[6.732s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/esp32
+[6.734s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[6.737s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[6.740s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[6.743s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[6.744s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[6.747s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[6.749s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[6.752s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[6.755s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[6.758s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[6.760s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[6.763s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[6.766s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[6.768s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[6.770s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[6.773s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[6.776s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[6.778s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[6.781s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[6.794s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[6.796s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[6.798s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[6.801s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[6.805s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[6.808s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[6.809s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[6.814s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[6.817s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[6.822s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[6.826s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[6.832s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[6.839s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[6.843s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[6.847s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[6.849s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[6.854s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[6.859s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[6.862s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[6.865s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[6.867s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[6.869s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[6.872s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[6.875s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[6.876s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[6.879s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[6.882s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[6.894s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[6.899s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[6.901s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[6.905s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[6.908s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[6.910s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[6.912s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[6.916s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[6.921s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[6.923s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[6.925s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/generate_lib
+[6.926s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[6.927s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/generate_lib/generic
+[6.928s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[6.930s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[6.932s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[6.934s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[6.939s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[6.940s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[6.941s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[6.945s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[6.948s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/raspbian
+[6.950s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[6.953s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/raspbian/generic
+[6.955s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[6.958s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[6.961s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[6.963s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[6.966s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[6.969s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[6.972s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[6.974s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[6.978s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/host
+[6.980s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[6.983s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[6.986s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/host/generic
+[6.988s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[6.991s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[6.995s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[6.997s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[7.000s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[7.003s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[7.006s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[7.008s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/renesas_ra
+[7.010s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[7.015s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[7.017s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[7.020s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[7.022s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[7.025s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[7.028s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[7.030s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[7.032s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[7.035s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[7.038s] -- Installing: /home/pi4b/PBL5/uros_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[7.052s] Invoked command in '/home/pi4b/PBL5/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/uros_ws/build/micro_ros_setup

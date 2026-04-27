@@ -1,0 +1,321 @@
+[0.521s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'saye_control']
+[0.522s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['saye_control'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7f5906d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7f741b70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7f741b70>>)
+[1.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.469s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi4b/PBL5/uros_ws'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ignore', 'ignore_ament_install']
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore_ament_install'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_pkg']
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_pkg'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_meta']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_meta'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ros']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ros'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['cmake', 'python']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'cmake'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['python_setup_py']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python_setup_py'
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'ignore'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'ignore_ament_install'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extensions ['colcon_pkg']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'colcon_pkg'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extensions ['colcon_meta']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'colcon_meta'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extensions ['ros']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'ros'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extensions ['cmake', 'python']
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'cmake'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'python'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extensions ['python_setup_py']
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2) by extension 'python_setup_py'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extension 'ignore'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extension 'ignore_ament_install'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extensions ['colcon_pkg']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extension 'colcon_pkg'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extensions ['colcon_meta']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extension 'colcon_meta'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extensions ['ros']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_bringup) by extension 'ros'
+[1.554s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann-vehicle-gzsim-ros2/saye_bringup' with type 'ros.ament_cmake' and name 'saye_bringup'
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extensions ['ignore', 'ignore_ament_install']
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extension 'ignore'
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extension 'ignore_ament_install'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extensions ['colcon_pkg']
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extension 'colcon_pkg'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extensions ['colcon_meta']
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extension 'colcon_meta'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extensions ['ros']
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_control) by extension 'ros'
+[1.562s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann-vehicle-gzsim-ros2/saye_control' with type 'ros.ament_cmake' and name 'saye_control'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extensions ['ignore', 'ignore_ament_install']
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extension 'ignore'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extension 'ignore_ament_install'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extensions ['colcon_pkg']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extension 'colcon_pkg'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extensions ['colcon_meta']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extension 'colcon_meta'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extensions ['ros']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_description) by extension 'ros'
+[1.567s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann-vehicle-gzsim-ros2/saye_description' with type 'ros.ament_cmake' and name 'saye_description'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extension 'ignore'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extension 'ignore_ament_install'
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extensions ['colcon_pkg']
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extension 'colcon_pkg'
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extensions ['colcon_meta']
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extension 'colcon_meta'
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extensions ['ros']
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann-vehicle-gzsim-ros2/saye_msgs) by extension 'ros'
+[1.573s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann-vehicle-gzsim-ros2/saye_msgs' with type 'ros.ament_cmake' and name 'saye_msgs'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[1.579s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[1.593s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[1.610s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_robot_bringup) by extension 'ignore'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_robot_bringup) by extension 'ignore_ament_install'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_robot_bringup) by extensions ['colcon_pkg']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_robot_bringup) by extension 'colcon_pkg'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_robot_bringup) by extensions ['colcon_meta']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_robot_bringup) by extension 'colcon_meta'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_robot_bringup) by extensions ['ros']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_robot_bringup) by extension 'ros'
+[1.614s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_robot_bringup' with type 'ros.ament_cmake' and name 'ydlidar_robot_bringup'
+[1.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.749s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'micro_ros_msgs' in 'src/uros/micro_ros_msgs'
+[1.749s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'micro_ros_setup' in 'src/micro_ros_setup'
+[1.750s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saye_description' in 'src/ackermann-vehicle-gzsim-ros2/saye_description'
+[1.750s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saye_msgs' in 'src/ackermann-vehicle-gzsim-ros2/saye_msgs'
+[1.750s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ydlidar_robot_bringup' in 'src/ydlidar_robot_bringup'
+[1.750s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'micro_ros_agent' in 'src/uros/micro-ROS-Agent/micro_ros_agent'
+[1.751s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saye_bringup' in 'src/ackermann-vehicle-gzsim-ros2/saye_bringup'
+[1.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.758s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pi4b/PBL5/uros_ws/install/saye_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.762s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/pi4b/PBL5/uros_ws/install/saye_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.767s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/pi4b/PBL5/uros_ws/install
+[1.770s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/pi4b/PBL5/ydlidar_ws/install
+[1.781s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 338 installed packages in /opt/ros/humble
+[1.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.042s] Level 5:colcon.colcon_core.verb:set package 'saye_control' build argument 'cmake_args' from command line to 'None'
+[2.042s] Level 5:colcon.colcon_core.verb:set package 'saye_control' build argument 'cmake_target' from command line to 'None'
+[2.043s] Level 5:colcon.colcon_core.verb:set package 'saye_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.043s] Level 5:colcon.colcon_core.verb:set package 'saye_control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.043s] Level 5:colcon.colcon_core.verb:set package 'saye_control' build argument 'cmake_clean_first' from command line to 'False'
+[2.043s] Level 5:colcon.colcon_core.verb:set package 'saye_control' build argument 'cmake_force_configure' from command line to 'False'
+[2.043s] Level 5:colcon.colcon_core.verb:set package 'saye_control' build argument 'ament_cmake_args' from command line to 'None'
+[2.043s] Level 5:colcon.colcon_core.verb:set package 'saye_control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.044s] Level 5:colcon.colcon_core.verb:set package 'saye_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.044s] DEBUG:colcon.colcon_core.verb:Building package 'saye_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi4b/PBL5/uros_ws/build/saye_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi4b/PBL5/uros_ws/install/saye_control', 'merge_install': False, 'path': '/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control', 'symlink_install': True, 'test_result_base': None}
+[2.044s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.049s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.050s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control' with build type 'ament_cmake'
+[2.051s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control'
+[2.064s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.065s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.066s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi4b/PBL5/uros_ws/build/saye_control': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/uros_ws/install/saye_control
+[12.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi4b/PBL5/uros_ws/build/saye_control' returned '0': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/uros_ws/install/saye_control
+[12.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi4b/PBL5/uros_ws/build/saye_control': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/uros_ws/build/saye_control -- -j4 -l4
+[86.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi4b/PBL5/uros_ws/build/saye_control' returned '0': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/uros_ws/build/saye_control -- -j4 -l4
+[86.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi4b/PBL5/uros_ws/build/saye_control': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/uros_ws/build/saye_control
+[86.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(saye_control)
+[86.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi4b/PBL5/uros_ws/build/saye_control' returned '0': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/uros_ws/build/saye_control
+[86.992s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/uros_ws/install/saye_control' for CMake module files
+[86.995s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/uros_ws/install/saye_control' for CMake config files
+[86.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('saye_control', 'cmake_prefix_path')
+[86.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/hook/cmake_prefix_path.ps1'
+[87.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/hook/cmake_prefix_path.dsv'
+[87.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/hook/cmake_prefix_path.sh'
+[87.012s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/uros_ws/install/saye_control/lib'
+[87.013s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/uros_ws/install/saye_control/bin'
+[87.014s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/uros_ws/install/saye_control/lib/pkgconfig/saye_control.pc'
+[87.015s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/uros_ws/install/saye_control/lib/python3.10/site-packages'
+[87.016s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/uros_ws/install/saye_control/bin'
+[87.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.ps1'
+[87.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.dsv'
+[87.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.sh'
+[87.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.bash'
+[87.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.zsh'
+[87.041s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi4b/PBL5/uros_ws/install/saye_control/share/colcon-core/packages/saye_control)
+[87.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(saye_control)
+[87.047s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/uros_ws/install/saye_control' for CMake module files
+[87.051s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/uros_ws/install/saye_control' for CMake config files
+[87.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('saye_control', 'cmake_prefix_path')
+[87.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/hook/cmake_prefix_path.ps1'
+[87.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/hook/cmake_prefix_path.dsv'
+[87.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/hook/cmake_prefix_path.sh'
+[87.062s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/uros_ws/install/saye_control/lib'
+[87.063s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/uros_ws/install/saye_control/bin'
+[87.063s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/uros_ws/install/saye_control/lib/pkgconfig/saye_control.pc'
+[87.064s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/uros_ws/install/saye_control/lib/python3.10/site-packages'
+[87.065s] Level 1:colcon.colcon_core.environment:checking '/home/pi4b/PBL5/uros_ws/install/saye_control/bin'
+[87.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.ps1'
+[87.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.dsv'
+[87.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.sh'
+[87.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.bash'
+[87.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.zsh'
+[87.082s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi4b/PBL5/uros_ws/install/saye_control/share/colcon-core/packages/saye_control)
+[87.084s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[87.085s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[87.085s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[87.086s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[87.140s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[87.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[87.142s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[87.165s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[87.166s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi4b/PBL5/uros_ws/install/local_setup.ps1'
+[87.172s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi4b/PBL5/uros_ws/install/_local_setup_util_ps1.py'
+[87.180s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi4b/PBL5/uros_ws/install/setup.ps1'
+[87.190s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi4b/PBL5/uros_ws/install/local_setup.sh'
+[87.195s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi4b/PBL5/uros_ws/install/_local_setup_util_sh.py'
+[87.200s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi4b/PBL5/uros_ws/install/setup.sh'
+[87.213s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi4b/PBL5/uros_ws/install/local_setup.bash'
+[87.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi4b/PBL5/uros_ws/install/setup.bash'
+[87.225s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi4b/PBL5/uros_ws/install/local_setup.zsh'
+[87.227s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi4b/PBL5/uros_ws/install/setup.zsh'

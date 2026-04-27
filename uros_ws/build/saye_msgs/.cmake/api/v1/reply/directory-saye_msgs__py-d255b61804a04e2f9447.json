@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "saye_msgs__py",
+		"source" : "/home/pi4b/PBL5/uros_ws/build/saye_msgs/saye_msgs__py"
+	}
+}

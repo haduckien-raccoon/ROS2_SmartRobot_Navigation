@@ -1,0 +1,1 @@
+/home/pi4b/PBL5/uros_ws/build/saye_msgs/rosidl_generator_py/saye_msgs/_saye_msgs_s.ep.rosidl_typesupport_introspection_c.c

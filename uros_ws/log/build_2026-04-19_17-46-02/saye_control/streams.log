@@ -1,0 +1,30 @@
+[0.090s] Invoking command in '/home/pi4b/PBL5/uros_ws/build/saye_control': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/uros_ws/build/saye_control -- -j4 -l4
+[0.376s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.376s] [35m[1mConsolidate compiler generated dependencies of target main[0m
+[0.492s] [ 50%] Built target client
+[0.496s] [100%] Built target main
+[0.548s] Invoked command in '/home/pi4b/PBL5/uros_ws/build/saye_control' returned '0': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/uros_ws/build/saye_control -- -j4 -l4
+[0.595s] Invoking command in '/home/pi4b/PBL5/uros_ws/build/saye_control': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/uros_ws/build/saye_control
+[0.631s] -- Install configuration: ""
+[0.633s] -- Execute custom install script
+[0.636s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/include/include/saye_control/control.hpp
+[0.637s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/include/include/saye_control/joystick_controller_simulation.hpp
+[0.639s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/lib/saye_control/main
+[0.640s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/lib/saye_control/client
+[0.641s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/lib/saye_control/esp32_odom_bridge.py
+[0.643s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/share/ament_index/resource_index/package_run_dependencies/saye_control
+[0.645s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/share/ament_index/resource_index/parent_prefix_path/saye_control
+[0.645s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/environment/ament_prefix_path.sh
+[0.647s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/environment/ament_prefix_path.dsv
+[0.648s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/environment/path.sh
+[0.648s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/environment/path.dsv
+[0.649s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/local_setup.bash
+[0.650s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/local_setup.sh
+[0.653s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/local_setup.zsh
+[0.654s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/local_setup.dsv
+[0.654s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.dsv
+[0.692s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/share/ament_index/resource_index/packages/saye_control
+[0.693s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/cmake/saye_controlConfig.cmake
+[0.695s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/cmake/saye_controlConfig-version.cmake
+[0.696s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.xml
+[0.702s] Invoked command in '/home/pi4b/PBL5/uros_ws/build/saye_control' returned '0': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/uros_ws/build/saye_control

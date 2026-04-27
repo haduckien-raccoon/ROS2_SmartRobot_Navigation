@@ -1,0 +1,1 @@
+/home/pi4b/PBL5/uros_ws/build/saye_msgs/ament_cmake_environment_hooks/pythonpath.sh

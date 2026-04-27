@@ -1,0 +1,961 @@
+[0.000000] (-) TimerEvent: {}
+[0.001621] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.002073] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.002333] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.002518] (-) JobUnselected: {'identifier': 'saye_bringup'}
+[0.002627] (-) JobUnselected: {'identifier': 'saye_description'}
+[0.002722] (-) JobUnselected: {'identifier': 'saye_msgs'}
+[0.002897] (-) JobUnselected: {'identifier': 'ydlidar_robot_bringup'}
+[0.003027] (saye_control) JobQueued: {'identifier': 'saye_control', 'dependencies': OrderedDict([('saye_msgs', '/home/pi4b/PBL5/uros_ws/install/saye_msgs')])}
+[0.003166] (saye_control) JobStarted: {'identifier': 'saye_control'}
+[0.078185] (saye_control) JobProgress: {'identifier': 'saye_control', 'progress': 'cmake'}
+[0.080609] (saye_control) Command: {'cmd': ['/usr/bin/cmake', '/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/uros_ws/install/saye_control'], 'cwd': '/home/pi4b/PBL5/uros_ws/build/saye_control', 'env': OrderedDict([('VNCDESKTOP', 'pi4b:1 (pi4b)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi4b'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1163'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi4b/PBL5/uros_ws/install/saye_msgs/lib:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent/lib:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs/lib:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/lib:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pi4b'), ('OLDPWD', '/home/pi4b/PBL5/uros_ws'), ('DESKTOP_SESSION', 'xfce'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('LIDAR_TYPE', 'x3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1032'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-3s8iYyXFz8,guid=5232b0da1c9527c8b860f16669e4763e'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/pi4b/PBL5/uros_ws/install:/home/pi4b/PBL5/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi4b'), ('JOURNAL_STREAM', '8:23860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pi4b:@/tmp/.ICE-unix/1061,unix/pi4b:/tmp/.ICE-unix/1061'), ('INVOCATION_ID', 'fa48247e1e0846ff893c6bfedf2cca30'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'vi_VN'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXrYtDRF/agent.1162'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:4d5006b6-e52e-41b4-9022-4723dfd1ac62'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/pi4b/PBL5/uros_ws/build/saye_control'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[0.097174] (-) TimerEvent: {}
+[0.197936] (-) TimerEvent: {}
+[0.299050] (-) TimerEvent: {}
+[0.399946] (-) TimerEvent: {}
+[0.402959] (saye_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500156] (-) TimerEvent: {}
+[0.601379] (-) TimerEvent: {}
+[0.680031] (saye_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.701557] (-) TimerEvent: {}
+[0.710301] (saye_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.801810] (-) TimerEvent: {}
+[0.902662] (-) TimerEvent: {}
+[1.003480] (-) TimerEvent: {}
+[1.076918] (saye_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.101278] (saye_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.102147] (saye_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.103654] (saye_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.104181] (-) TimerEvent: {}
+[1.115821] (saye_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.204404] (-) TimerEvent: {}
+[1.305201] (-) TimerEvent: {}
+[1.406389] (-) TimerEvent: {}
+[1.507502] (-) TimerEvent: {}
+[1.517407] (saye_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.544369] (saye_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.546789] (saye_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.548212] (saye_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.594268] (saye_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.607655] (-) TimerEvent: {}
+[1.708681] (-) TimerEvent: {}
+[1.810065] (-) TimerEvent: {}
+[1.911128] (-) TimerEvent: {}
+[2.011904] (-) TimerEvent: {}
+[2.112661] (-) TimerEvent: {}
+[2.213536] (-) TimerEvent: {}
+[2.314950] (-) TimerEvent: {}
+[2.416223] (-) TimerEvent: {}
+[2.494999] (saye_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.516465] (-) TimerEvent: {}
+[2.617287] (-) TimerEvent: {}
+[2.718387] (-) TimerEvent: {}
+[2.819255] (-) TimerEvent: {}
+[2.828028] (saye_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.919425] (-) TimerEvent: {}
+[3.020167] (-) TimerEvent: {}
+[3.120914] (-) TimerEvent: {}
+[3.221744] (-) TimerEvent: {}
+[3.322480] (-) TimerEvent: {}
+[3.385008] (saye_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.422666] (-) TimerEvent: {}
+[3.523421] (-) TimerEvent: {}
+[3.624165] (-) TimerEvent: {}
+[3.724898] (-) TimerEvent: {}
+[3.825678] (-) TimerEvent: {}
+[3.926435] (-) TimerEvent: {}
+[3.972827] (saye_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.026631] (-) TimerEvent: {}
+[4.056378] (saye_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.126804] (-) TimerEvent: {}
+[4.156403] (saye_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.227261] (-) TimerEvent: {}
+[4.280332] (saye_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.327368] (-) TimerEvent: {}
+[4.428454] (-) TimerEvent: {}
+[4.446735] (saye_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.528639] (-) TimerEvent: {}
+[4.629727] (-) TimerEvent: {}
+[4.730649] (-) TimerEvent: {}
+[4.831426] (-) TimerEvent: {}
+[4.932211] (-) TimerEvent: {}
+[4.941898] (saye_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.986181] (saye_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.032455] (-) TimerEvent: {}
+[5.133293] (-) TimerEvent: {}
+[5.234150] (-) TimerEvent: {}
+[5.334982] (-) TimerEvent: {}
+[5.435797] (-) TimerEvent: {}
+[5.536633] (-) TimerEvent: {}
+[5.638119] (-) TimerEvent: {}
+[5.739462] (-) TimerEvent: {}
+[5.766848] (saye_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.839656] (-) TimerEvent: {}
+[5.940453] (-) TimerEvent: {}
+[6.041295] (-) TimerEvent: {}
+[6.114876] (saye_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.141483] (-) TimerEvent: {}
+[6.242289] (-) TimerEvent: {}
+[6.343158] (-) TimerEvent: {}
+[6.443946] (-) TimerEvent: {}
+[6.544725] (-) TimerEvent: {}
+[6.645674] (-) TimerEvent: {}
+[6.665154] (saye_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.745891] (-) TimerEvent: {}
+[6.798933] (saye_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.846082] (-) TimerEvent: {}
+[6.946826] (-) TimerEvent: {}
+[7.047547] (-) TimerEvent: {}
+[7.148357] (-) TimerEvent: {}
+[7.186871] (saye_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.189039] (saye_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.248552] (-) TimerEvent: {}
+[7.349619] (-) TimerEvent: {}
+[7.451492] (-) TimerEvent: {}
+[7.552247] (-) TimerEvent: {}
+[7.569542] (saye_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.573534] (saye_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.652436] (-) TimerEvent: {}
+[7.753296] (-) TimerEvent: {}
+[7.854147] (-) TimerEvent: {}
+[7.955218] (-) TimerEvent: {}
+[7.971846] (saye_control) StdoutLine: {'line': b'-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[8.009481] (saye_control) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.055413] (-) TimerEvent: {}
+[8.156174] (-) TimerEvent: {}
+[8.177291] (saye_control) StdoutLine: {'line': b'-- Found saye_msgs: 0.0.0 (/home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake)\n'}
+[8.256372] (-) TimerEvent: {}
+[8.357227] (-) TimerEvent: {}
+[8.457970] (-) TimerEvent: {}
+[8.558797] (-) TimerEvent: {}
+[8.659500] (-) TimerEvent: {}
+[8.744743] (saye_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.759751] (-) TimerEvent: {}
+[8.861226] (-) TimerEvent: {}
+[8.961976] (-) TimerEvent: {}
+[9.062762] (-) TimerEvent: {}
+[9.163793] (-) TimerEvent: {}
+[9.264524] (-) TimerEvent: {}
+[9.365294] (-) TimerEvent: {}
+[9.386055] (saye_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.387054] (saye_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/include\n'}
+[9.387542] (saye_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.391776] (saye_control) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.397684] (saye_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.403449] (saye_control) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.414976] (saye_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.415572] (saye_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.419818] (saye_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.434120] (saye_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.465476] (-) TimerEvent: {}
+[9.538328] (saye_control) StdoutLine: {'line': b'-- Generating done\n'}
+[9.565689] (-) TimerEvent: {}
+[9.566554] (saye_control) StdoutLine: {'line': b'-- Build files have been written to: /home/pi4b/PBL5/uros_ws/build/saye_control\n'}
+[9.609162] (saye_control) CommandEnded: {'returncode': 0}
+[9.611435] (saye_control) JobProgress: {'identifier': 'saye_control', 'progress': 'build'}
+[9.613870] (saye_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi4b/PBL5/uros_ws/build/saye_control', '--', '-j4', '-l4'], 'cwd': '/home/pi4b/PBL5/uros_ws/build/saye_control', 'env': OrderedDict([('VNCDESKTOP', 'pi4b:1 (pi4b)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi4b'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1163'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi4b/PBL5/uros_ws/install/saye_msgs/lib:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent/lib:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs/lib:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/lib:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pi4b'), ('OLDPWD', '/home/pi4b/PBL5/uros_ws'), ('DESKTOP_SESSION', 'xfce'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('LIDAR_TYPE', 'x3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1032'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-3s8iYyXFz8,guid=5232b0da1c9527c8b860f16669e4763e'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/pi4b/PBL5/uros_ws/install:/home/pi4b/PBL5/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi4b'), ('JOURNAL_STREAM', '8:23860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pi4b:@/tmp/.ICE-unix/1061,unix/pi4b:/tmp/.ICE-unix/1061'), ('INVOCATION_ID', 'fa48247e1e0846ff893c6bfedf2cca30'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'vi_VN'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXrYtDRF/agent.1162'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:4d5006b6-e52e-41b4-9022-4723dfd1ac62'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/pi4b/PBL5/uros_ws/build/saye_control'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[9.665901] (-) TimerEvent: {}
+[9.767827] (-) TimerEvent: {}
+[9.868682] (-) TimerEvent: {}
+[9.890204] (saye_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o\x1b[0m\n'}
+[9.893773] (saye_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o\x1b[0m\n'}
+[9.968887] (-) TimerEvent: {}
+[10.069679] (-) TimerEvent: {}
+[10.170454] (-) TimerEvent: {}
+[10.271295] (-) TimerEvent: {}
+[10.372027] (-) TimerEvent: {}
+[10.472861] (-) TimerEvent: {}
+[10.574323] (-) TimerEvent: {}
+[10.675232] (-) TimerEvent: {}
+[10.776130] (-) TimerEvent: {}
+[10.876994] (-) TimerEvent: {}
+[10.978010] (-) TimerEvent: {}
+[11.079453] (-) TimerEvent: {}
+[11.182664] (-) TimerEvent: {}
+[11.284099] (-) TimerEvent: {}
+[11.385373] (-) TimerEvent: {}
+[11.486263] (-) TimerEvent: {}
+[11.587686] (-) TimerEvent: {}
+[11.689600] (-) TimerEvent: {}
+[11.791008] (-) TimerEvent: {}
+[11.892327] (-) TimerEvent: {}
+[11.993618] (-) TimerEvent: {}
+[12.095259] (-) TimerEvent: {}
+[12.197157] (-) TimerEvent: {}
+[12.298884] (-) TimerEvent: {}
+[12.401021] (-) TimerEvent: {}
+[12.502784] (-) TimerEvent: {}
+[12.605163] (-) TimerEvent: {}
+[12.707146] (-) TimerEvent: {}
+[12.808100] (-) TimerEvent: {}
+[12.909745] (-) TimerEvent: {}
+[13.010755] (-) TimerEvent: {}
+[13.111847] (-) TimerEvent: {}
+[13.212965] (-) TimerEvent: {}
+[13.314051] (-) TimerEvent: {}
+[13.416938] (-) TimerEvent: {}
+[13.518845] (-) TimerEvent: {}
+[13.621147] (-) TimerEvent: {}
+[13.722883] (-) TimerEvent: {}
+[13.824647] (-) TimerEvent: {}
+[13.928148] (-) TimerEvent: {}
+[14.030000] (-) TimerEvent: {}
+[14.131596] (-) TimerEvent: {}
+[14.233130] (-) TimerEvent: {}
+[14.335250] (-) TimerEvent: {}
+[14.436948] (-) TimerEvent: {}
+[14.538777] (-) TimerEvent: {}
+[14.640333] (-) TimerEvent: {}
+[14.741985] (-) TimerEvent: {}
+[14.845520] (-) TimerEvent: {}
+[14.946552] (-) TimerEvent: {}
+[15.047469] (-) TimerEvent: {}
+[15.148327] (-) TimerEvent: {}
+[15.249716] (-) TimerEvent: {}
+[15.350692] (-) TimerEvent: {}
+[15.451793] (-) TimerEvent: {}
+[15.552903] (-) TimerEvent: {}
+[15.653986] (-) TimerEvent: {}
+[15.755106] (-) TimerEvent: {}
+[15.856125] (-) TimerEvent: {}
+[15.957018] (-) TimerEvent: {}
+[16.057964] (-) TimerEvent: {}
+[16.159734] (-) TimerEvent: {}
+[16.261618] (-) TimerEvent: {}
+[16.363756] (-) TimerEvent: {}
+[16.466278] (-) TimerEvent: {}
+[16.567982] (-) TimerEvent: {}
+[16.669836] (-) TimerEvent: {}
+[16.771468] (-) TimerEvent: {}
+[16.873330] (-) TimerEvent: {}
+[16.975035] (-) TimerEvent: {}
+[17.076737] (-) TimerEvent: {}
+[17.178447] (-) TimerEvent: {}
+[17.281375] (-) TimerEvent: {}
+[17.383592] (-) TimerEvent: {}
+[17.485417] (-) TimerEvent: {}
+[17.588053] (-) TimerEvent: {}
+[17.689837] (-) TimerEvent: {}
+[17.791609] (-) TimerEvent: {}
+[17.893794] (-) TimerEvent: {}
+[17.995441] (-) TimerEvent: {}
+[18.097053] (-) TimerEvent: {}
+[18.198861] (-) TimerEvent: {}
+[18.300826] (-) TimerEvent: {}
+[18.402888] (-) TimerEvent: {}
+[18.504616] (-) TimerEvent: {}
+[18.606320] (-) TimerEvent: {}
+[18.708010] (-) TimerEvent: {}
+[18.809715] (-) TimerEvent: {}
+[18.911415] (-) TimerEvent: {}
+[19.013258] (-) TimerEvent: {}
+[19.115948] (-) TimerEvent: {}
+[19.219179] (-) TimerEvent: {}
+[19.320950] (-) TimerEvent: {}
+[19.421790] (-) TimerEvent: {}
+[19.522699] (-) TimerEvent: {}
+[19.624294] (-) TimerEvent: {}
+[19.725932] (-) TimerEvent: {}
+[19.827793] (-) TimerEvent: {}
+[19.929707] (-) TimerEvent: {}
+[20.031501] (-) TimerEvent: {}
+[20.133145] (-) TimerEvent: {}
+[20.234687] (-) TimerEvent: {}
+[20.336677] (-) TimerEvent: {}
+[20.438391] (-) TimerEvent: {}
+[20.540188] (-) TimerEvent: {}
+[20.641872] (-) TimerEvent: {}
+[20.742935] (-) TimerEvent: {}
+[20.843850] (-) TimerEvent: {}
+[20.944716] (-) TimerEvent: {}
+[21.046435] (-) TimerEvent: {}
+[21.148140] (-) TimerEvent: {}
+[21.249070] (-) TimerEvent: {}
+[21.349956] (-) TimerEvent: {}
+[21.450915] (-) TimerEvent: {}
+[21.552000] (-) TimerEvent: {}
+[21.652851] (-) TimerEvent: {}
+[21.753856] (-) TimerEvent: {}
+[21.856138] (-) TimerEvent: {}
+[21.957163] (-) TimerEvent: {}
+[22.058110] (-) TimerEvent: {}
+[22.167775] (-) TimerEvent: {}
+[22.269954] (-) TimerEvent: {}
+[22.371908] (-) TimerEvent: {}
+[22.476095] (-) TimerEvent: {}
+[22.578749] (-) TimerEvent: {}
+[22.680715] (-) TimerEvent: {}
+[22.782648] (-) TimerEvent: {}
+[22.884262] (-) TimerEvent: {}
+[22.986084] (-) TimerEvent: {}
+[23.087604] (-) TimerEvent: {}
+[23.189491] (-) TimerEvent: {}
+[23.291309] (-) TimerEvent: {}
+[23.392114] (-) TimerEvent: {}
+[23.493016] (-) TimerEvent: {}
+[23.594058] (-) TimerEvent: {}
+[23.695061] (-) TimerEvent: {}
+[23.796309] (-) TimerEvent: {}
+[23.897287] (-) TimerEvent: {}
+[23.998220] (-) TimerEvent: {}
+[24.099187] (-) TimerEvent: {}
+[24.200194] (-) TimerEvent: {}
+[24.301118] (-) TimerEvent: {}
+[24.402485] (-) TimerEvent: {}
+[24.503880] (-) TimerEvent: {}
+[24.604969] (-) TimerEvent: {}
+[24.705872] (-) TimerEvent: {}
+[24.806819] (-) TimerEvent: {}
+[24.908510] (-) TimerEvent: {}
+[25.009773] (-) TimerEvent: {}
+[25.111188] (-) TimerEvent: {}
+[25.212036] (-) TimerEvent: {}
+[25.312862] (-) TimerEvent: {}
+[25.413869] (-) TimerEvent: {}
+[25.515203] (-) TimerEvent: {}
+[25.617058] (-) TimerEvent: {}
+[25.719212] (-) TimerEvent: {}
+[25.820356] (-) TimerEvent: {}
+[25.923231] (-) TimerEvent: {}
+[26.026319] (-) TimerEvent: {}
+[26.127235] (-) TimerEvent: {}
+[26.228037] (-) TimerEvent: {}
+[26.325238] (saye_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/src/client.cpp:1\x1b[m\x1b[K:\n'}
+[26.326056] (saye_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/include/saye_control/control.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Control::service_callback(saye_msgs::srv::ShareMap_Request_<std::allocator<void> >::SharedPtr, saye_msgs::srv::ShareMap_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.326694] (saye_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/include/saye_control/control.hpp:95:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.327341] (saye_control) StderrLine: {'line': b'   95 | void Control::service_callback(\x1b[01;35m\x1b[Kconst saye_msgs::srv::ShareMap::Request::SharedPtr request\x1b[m\x1b[K, const saye_msgs::srv::ShareMap::Response::SharedPtr response)\n'}
+[26.327981] (saye_control) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[26.328677] (-) TimerEvent: {}
+[26.429441] (-) TimerEvent: {}
+[26.530331] (-) TimerEvent: {}
+[26.631197] (-) TimerEvent: {}
+[26.732066] (-) TimerEvent: {}
+[26.833024] (-) TimerEvent: {}
+[26.933920] (-) TimerEvent: {}
+[27.027050] (saye_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[27.027788] (saye_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/include/saye_control/control.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Control::service_callback(saye_msgs::srv::ShareMap_Request_<std::allocator<void> >::SharedPtr, saye_msgs::srv::ShareMap_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[27.028472] (saye_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/include/saye_control/control.hpp:95:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.029048] (saye_control) StderrLine: {'line': b'   95 | callback(\x1b[01;35m\x1b[Kconst saye_msgs::srv::ShareMap::Request::SharedPtr request\x1b[m\x1b[K, const saye_msgs::srv::ShareMap::Response::SharedPtr response)\n'}
+[27.029633] (saye_control) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[27.030266] (saye_control) StderrLine: {'line': b'\n'}
+[27.034136] (-) TimerEvent: {}
+[27.136070] (-) TimerEvent: {}
+[27.241472] (-) TimerEvent: {}
+[27.343418] (-) TimerEvent: {}
+[27.445083] (-) TimerEvent: {}
+[27.546734] (-) TimerEvent: {}
+[27.647611] (-) TimerEvent: {}
+[27.748475] (-) TimerEvent: {}
+[27.849332] (-) TimerEvent: {}
+[27.950111] (-) TimerEvent: {}
+[28.051121] (-) TimerEvent: {}
+[28.152939] (-) TimerEvent: {}
+[28.254478] (-) TimerEvent: {}
+[28.355523] (-) TimerEvent: {}
+[28.456427] (-) TimerEvent: {}
+[28.557390] (-) TimerEvent: {}
+[28.658317] (-) TimerEvent: {}
+[28.759232] (-) TimerEvent: {}
+[28.860121] (-) TimerEvent: {}
+[28.961064] (-) TimerEvent: {}
+[29.062584] (-) TimerEvent: {}
+[29.164055] (-) TimerEvent: {}
+[29.265796] (-) TimerEvent: {}
+[29.367524] (-) TimerEvent: {}
+[29.469252] (-) TimerEvent: {}
+[29.571257] (-) TimerEvent: {}
+[29.672886] (-) TimerEvent: {}
+[29.775542] (-) TimerEvent: {}
+[29.877791] (-) TimerEvent: {}
+[29.979536] (-) TimerEvent: {}
+[30.082484] (-) TimerEvent: {}
+[30.183747] (-) TimerEvent: {}
+[30.285383] (-) TimerEvent: {}
+[30.387117] (-) TimerEvent: {}
+[30.489034] (-) TimerEvent: {}
+[30.590909] (-) TimerEvent: {}
+[30.692634] (-) TimerEvent: {}
+[30.794216] (-) TimerEvent: {}
+[30.895905] (-) TimerEvent: {}
+[30.997817] (-) TimerEvent: {}
+[31.099468] (-) TimerEvent: {}
+[31.201184] (-) TimerEvent: {}
+[31.302904] (-) TimerEvent: {}
+[31.404553] (-) TimerEvent: {}
+[31.506301] (-) TimerEvent: {}
+[31.608290] (-) TimerEvent: {}
+[31.711394] (-) TimerEvent: {}
+[31.815993] (-) TimerEvent: {}
+[31.920006] (-) TimerEvent: {}
+[32.022578] (-) TimerEvent: {}
+[32.126033] (-) TimerEvent: {}
+[32.227931] (-) TimerEvent: {}
+[32.329615] (-) TimerEvent: {}
+[32.431323] (-) TimerEvent: {}
+[32.532974] (-) TimerEvent: {}
+[32.635140] (-) TimerEvent: {}
+[32.736784] (-) TimerEvent: {}
+[32.838723] (-) TimerEvent: {}
+[32.940388] (-) TimerEvent: {}
+[33.042024] (-) TimerEvent: {}
+[33.143606] (-) TimerEvent: {}
+[33.245445] (-) TimerEvent: {}
+[33.346879] (-) TimerEvent: {}
+[33.447990] (-) TimerEvent: {}
+[33.549643] (-) TimerEvent: {}
+[33.650821] (-) TimerEvent: {}
+[33.753141] (-) TimerEvent: {}
+[33.855058] (-) TimerEvent: {}
+[33.956915] (-) TimerEvent: {}
+[34.058978] (-) TimerEvent: {}
+[34.160438] (-) TimerEvent: {}
+[34.262075] (-) TimerEvent: {}
+[34.363975] (-) TimerEvent: {}
+[34.465901] (-) TimerEvent: {}
+[34.568452] (-) TimerEvent: {}
+[34.669873] (-) TimerEvent: {}
+[34.771627] (-) TimerEvent: {}
+[34.873349] (-) TimerEvent: {}
+[34.974845] (-) TimerEvent: {}
+[35.076573] (-) TimerEvent: {}
+[35.178230] (-) TimerEvent: {}
+[35.280391] (-) TimerEvent: {}
+[35.382080] (-) TimerEvent: {}
+[35.483704] (-) TimerEvent: {}
+[35.585840] (-) TimerEvent: {}
+[35.688385] (-) TimerEvent: {}
+[35.790694] (-) TimerEvent: {}
+[35.892524] (-) TimerEvent: {}
+[35.994138] (-) TimerEvent: {}
+[36.095905] (-) TimerEvent: {}
+[36.197514] (-) TimerEvent: {}
+[36.299230] (-) TimerEvent: {}
+[36.400782] (-) TimerEvent: {}
+[36.502520] (-) TimerEvent: {}
+[36.604163] (-) TimerEvent: {}
+[36.705863] (-) TimerEvent: {}
+[36.807673] (-) TimerEvent: {}
+[36.909777] (-) TimerEvent: {}
+[37.012302] (-) TimerEvent: {}
+[37.113318] (-) TimerEvent: {}
+[37.215324] (-) TimerEvent: {}
+[37.316959] (-) TimerEvent: {}
+[37.418674] (-) TimerEvent: {}
+[37.544972] (-) TimerEvent: {}
+[37.647047] (-) TimerEvent: {}
+[37.748748] (-) TimerEvent: {}
+[37.850812] (-) TimerEvent: {}
+[37.952626] (-) TimerEvent: {}
+[38.054634] (-) TimerEvent: {}
+[38.157401] (-) TimerEvent: {}
+[38.259173] (-) TimerEvent: {}
+[38.361200] (-) TimerEvent: {}
+[38.462899] (-) TimerEvent: {}
+[38.564706] (-) TimerEvent: {}
+[38.666460] (-) TimerEvent: {}
+[38.768230] (-) TimerEvent: {}
+[38.870000] (-) TimerEvent: {}
+[38.971801] (-) TimerEvent: {}
+[39.074300] (-) TimerEvent: {}
+[39.175945] (-) TimerEvent: {}
+[39.277490] (-) TimerEvent: {}
+[39.379084] (-) TimerEvent: {}
+[39.480611] (-) TimerEvent: {}
+[39.582176] (-) TimerEvent: {}
+[39.683902] (-) TimerEvent: {}
+[39.785608] (-) TimerEvent: {}
+[39.886817] (-) TimerEvent: {}
+[39.988476] (-) TimerEvent: {}
+[40.091545] (-) TimerEvent: {}
+[40.193239] (-) TimerEvent: {}
+[40.295144] (-) TimerEvent: {}
+[40.396950] (-) TimerEvent: {}
+[40.498724] (-) TimerEvent: {}
+[40.600513] (-) TimerEvent: {}
+[40.703012] (-) TimerEvent: {}
+[40.804974] (-) TimerEvent: {}
+[40.910222] (-) TimerEvent: {}
+[41.013347] (-) TimerEvent: {}
+[41.115007] (-) TimerEvent: {}
+[41.219345] (-) TimerEvent: {}
+[41.321248] (-) TimerEvent: {}
+[41.426850] (-) TimerEvent: {}
+[41.527889] (-) TimerEvent: {}
+[41.629593] (-) TimerEvent: {}
+[41.731692] (-) TimerEvent: {}
+[41.836118] (-) TimerEvent: {}
+[41.939604] (-) TimerEvent: {}
+[42.042715] (-) TimerEvent: {}
+[42.167563] (-) TimerEvent: {}
+[42.269296] (-) TimerEvent: {}
+[42.370270] (-) TimerEvent: {}
+[42.474153] (-) TimerEvent: {}
+[42.575818] (-) TimerEvent: {}
+[42.677753] (-) TimerEvent: {}
+[42.787999] (-) TimerEvent: {}
+[42.889022] (-) TimerEvent: {}
+[42.999494] (-) TimerEvent: {}
+[43.101385] (-) TimerEvent: {}
+[43.203307] (-) TimerEvent: {}
+[43.304899] (-) TimerEvent: {}
+[43.406448] (-) TimerEvent: {}
+[43.507286] (-) TimerEvent: {}
+[43.608126] (-) TimerEvent: {}
+[43.709028] (-) TimerEvent: {}
+[43.810943] (-) TimerEvent: {}
+[43.912728] (-) TimerEvent: {}
+[44.014803] (-) TimerEvent: {}
+[44.116789] (-) TimerEvent: {}
+[44.230127] (-) TimerEvent: {}
+[44.341580] (-) TimerEvent: {}
+[44.450317] (-) TimerEvent: {}
+[44.559372] (-) TimerEvent: {}
+[44.661382] (-) TimerEvent: {}
+[44.778130] (-) TimerEvent: {}
+[44.902610] (-) TimerEvent: {}
+[45.003557] (-) TimerEvent: {}
+[45.104464] (-) TimerEvent: {}
+[45.206268] (-) TimerEvent: {}
+[45.309617] (-) TimerEvent: {}
+[45.411515] (-) TimerEvent: {}
+[45.513016] (-) TimerEvent: {}
+[45.614542] (-) TimerEvent: {}
+[45.716139] (-) TimerEvent: {}
+[45.817792] (-) TimerEvent: {}
+[45.919425] (-) TimerEvent: {}
+[46.020928] (-) TimerEvent: {}
+[46.122568] (-) TimerEvent: {}
+[46.224029] (-) TimerEvent: {}
+[46.325668] (-) TimerEvent: {}
+[46.427328] (-) TimerEvent: {}
+[46.529205] (-) TimerEvent: {}
+[46.631235] (-) TimerEvent: {}
+[46.742662] (-) TimerEvent: {}
+[46.858833] (-) TimerEvent: {}
+[46.960533] (-) TimerEvent: {}
+[47.062448] (-) TimerEvent: {}
+[47.164246] (-) TimerEvent: {}
+[47.272781] (-) TimerEvent: {}
+[47.373723] (-) TimerEvent: {}
+[47.487691] (-) TimerEvent: {}
+[47.589951] (-) TimerEvent: {}
+[47.691620] (-) TimerEvent: {}
+[47.793320] (-) TimerEvent: {}
+[47.894795] (-) TimerEvent: {}
+[48.003206] (-) TimerEvent: {}
+[48.105366] (-) TimerEvent: {}
+[48.207212] (-) TimerEvent: {}
+[48.308918] (-) TimerEvent: {}
+[48.410794] (-) TimerEvent: {}
+[48.515842] (-) TimerEvent: {}
+[48.616783] (-) TimerEvent: {}
+[48.717858] (-) TimerEvent: {}
+[48.821476] (-) TimerEvent: {}
+[48.923062] (-) TimerEvent: {}
+[49.024675] (-) TimerEvent: {}
+[49.139152] (-) TimerEvent: {}
+[49.240074] (-) TimerEvent: {}
+[49.341199] (-) TimerEvent: {}
+[49.444359] (-) TimerEvent: {}
+[49.547027] (-) TimerEvent: {}
+[49.649836] (-) TimerEvent: {}
+[49.752019] (-) TimerEvent: {}
+[49.854021] (-) TimerEvent: {}
+[49.956599] (-) TimerEvent: {}
+[50.058755] (-) TimerEvent: {}
+[50.160519] (-) TimerEvent: {}
+[50.262455] (-) TimerEvent: {}
+[50.364120] (-) TimerEvent: {}
+[50.465782] (-) TimerEvent: {}
+[50.567694] (-) TimerEvent: {}
+[50.670959] (-) TimerEvent: {}
+[50.772513] (-) TimerEvent: {}
+[50.874211] (-) TimerEvent: {}
+[50.975997] (-) TimerEvent: {}
+[51.077696] (-) TimerEvent: {}
+[51.185019] (-) TimerEvent: {}
+[51.288002] (-) TimerEvent: {}
+[51.389756] (-) TimerEvent: {}
+[51.491661] (-) TimerEvent: {}
+[51.593512] (-) TimerEvent: {}
+[51.695663] (-) TimerEvent: {}
+[51.797410] (-) TimerEvent: {}
+[51.899209] (-) TimerEvent: {}
+[52.000172] (-) TimerEvent: {}
+[52.101047] (-) TimerEvent: {}
+[52.202935] (-) TimerEvent: {}
+[52.304648] (-) TimerEvent: {}
+[52.406138] (-) TimerEvent: {}
+[52.511600] (-) TimerEvent: {}
+[52.621590] (-) TimerEvent: {}
+[52.727822] (-) TimerEvent: {}
+[52.829482] (-) TimerEvent: {}
+[52.931135] (-) TimerEvent: {}
+[53.032766] (-) TimerEvent: {}
+[53.134438] (-) TimerEvent: {}
+[53.236194] (-) TimerEvent: {}
+[53.338058] (-) TimerEvent: {}
+[53.452489] (-) TimerEvent: {}
+[53.555073] (-) TimerEvent: {}
+[53.657540] (-) TimerEvent: {}
+[53.759341] (-) TimerEvent: {}
+[53.861011] (-) TimerEvent: {}
+[53.962790] (-) TimerEvent: {}
+[54.064616] (-) TimerEvent: {}
+[54.166620] (-) TimerEvent: {}
+[54.268292] (-) TimerEvent: {}
+[54.370122] (-) TimerEvent: {}
+[54.471892] (-) TimerEvent: {}
+[54.573672] (-) TimerEvent: {}
+[54.675725] (-) TimerEvent: {}
+[54.777572] (-) TimerEvent: {}
+[54.896393] (-) TimerEvent: {}
+[54.997244] (-) TimerEvent: {}
+[55.098098] (-) TimerEvent: {}
+[55.198994] (-) TimerEvent: {}
+[55.299836] (-) TimerEvent: {}
+[55.401447] (-) TimerEvent: {}
+[55.503026] (-) TimerEvent: {}
+[55.604607] (-) TimerEvent: {}
+[55.706261] (-) TimerEvent: {}
+[55.807894] (-) TimerEvent: {}
+[55.909742] (-) TimerEvent: {}
+[56.011498] (-) TimerEvent: {}
+[56.113119] (-) TimerEvent: {}
+[56.214737] (-) TimerEvent: {}
+[56.316618] (-) TimerEvent: {}
+[56.417649] (-) TimerEvent: {}
+[56.519362] (-) TimerEvent: {}
+[56.621044] (-) TimerEvent: {}
+[56.722771] (-) TimerEvent: {}
+[56.824502] (-) TimerEvent: {}
+[56.927854] (-) TimerEvent: {}
+[57.029588] (-) TimerEvent: {}
+[57.131259] (-) TimerEvent: {}
+[57.232985] (-) TimerEvent: {}
+[57.334675] (-) TimerEvent: {}
+[57.436381] (-) TimerEvent: {}
+[57.538152] (-) TimerEvent: {}
+[57.639870] (-) TimerEvent: {}
+[57.742026] (-) TimerEvent: {}
+[57.843897] (-) TimerEvent: {}
+[57.945719] (-) TimerEvent: {}
+[58.047457] (-) TimerEvent: {}
+[58.149153] (-) TimerEvent: {}
+[58.250875] (-) TimerEvent: {}
+[58.352496] (-) TimerEvent: {}
+[58.454178] (-) TimerEvent: {}
+[58.555923] (-) TimerEvent: {}
+[58.657472] (-) TimerEvent: {}
+[58.759706] (-) TimerEvent: {}
+[58.863053] (-) TimerEvent: {}
+[58.964838] (-) TimerEvent: {}
+[59.066891] (-) TimerEvent: {}
+[59.168763] (-) TimerEvent: {}
+[59.270662] (-) TimerEvent: {}
+[59.373056] (-) TimerEvent: {}
+[59.475041] (-) TimerEvent: {}
+[59.576799] (-) TimerEvent: {}
+[59.678500] (-) TimerEvent: {}
+[59.780259] (-) TimerEvent: {}
+[59.881989] (-) TimerEvent: {}
+[59.983810] (-) TimerEvent: {}
+[60.085746] (-) TimerEvent: {}
+[60.188588] (-) TimerEvent: {}
+[60.290245] (-) TimerEvent: {}
+[60.392045] (-) TimerEvent: {}
+[60.493892] (-) TimerEvent: {}
+[60.595584] (-) TimerEvent: {}
+[60.697400] (-) TimerEvent: {}
+[60.798671] (-) TimerEvent: {}
+[60.900844] (-) TimerEvent: {}
+[61.012739] (-) TimerEvent: {}
+[61.115011] (-) TimerEvent: {}
+[61.216064] (-) TimerEvent: {}
+[61.317095] (-) TimerEvent: {}
+[61.418063] (-) TimerEvent: {}
+[61.519206] (-) TimerEvent: {}
+[61.620290] (-) TimerEvent: {}
+[61.721346] (-) TimerEvent: {}
+[61.823150] (-) TimerEvent: {}
+[61.924069] (-) TimerEvent: {}
+[62.025214] (-) TimerEvent: {}
+[62.126570] (-) TimerEvent: {}
+[62.227511] (-) TimerEvent: {}
+[62.328414] (-) TimerEvent: {}
+[62.429275] (-) TimerEvent: {}
+[62.530057] (-) TimerEvent: {}
+[62.630939] (-) TimerEvent: {}
+[62.731827] (-) TimerEvent: {}
+[62.832744] (-) TimerEvent: {}
+[62.933980] (-) TimerEvent: {}
+[63.035194] (-) TimerEvent: {}
+[63.136087] (-) TimerEvent: {}
+[63.236979] (-) TimerEvent: {}
+[63.338100] (-) TimerEvent: {}
+[63.439135] (-) TimerEvent: {}
+[63.539999] (-) TimerEvent: {}
+[63.640901] (-) TimerEvent: {}
+[63.741722] (-) TimerEvent: {}
+[63.842642] (-) TimerEvent: {}
+[63.943523] (-) TimerEvent: {}
+[64.044309] (-) TimerEvent: {}
+[64.145119] (-) TimerEvent: {}
+[64.246270] (-) TimerEvent: {}
+[64.349039] (-) TimerEvent: {}
+[64.450180] (-) TimerEvent: {}
+[64.551695] (-) TimerEvent: {}
+[64.653237] (-) TimerEvent: {}
+[64.755471] (-) TimerEvent: {}
+[64.857103] (-) TimerEvent: {}
+[64.957980] (-) TimerEvent: {}
+[65.059116] (-) TimerEvent: {}
+[65.160451] (-) TimerEvent: {}
+[65.261285] (-) TimerEvent: {}
+[65.362092] (-) TimerEvent: {}
+[65.372329] (saye_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[65.462311] (-) TimerEvent: {}
+[65.563971] (-) TimerEvent: {}
+[65.665758] (-) TimerEvent: {}
+[65.768174] (-) TimerEvent: {}
+[65.869823] (-) TimerEvent: {}
+[65.971839] (-) TimerEvent: {}
+[66.073934] (-) TimerEvent: {}
+[66.176238] (-) TimerEvent: {}
+[66.278590] (-) TimerEvent: {}
+[66.380764] (-) TimerEvent: {}
+[66.483058] (-) TimerEvent: {}
+[66.585265] (-) TimerEvent: {}
+[66.687441] (-) TimerEvent: {}
+[66.790012] (-) TimerEvent: {}
+[66.892189] (-) TimerEvent: {}
+[66.993994] (-) TimerEvent: {}
+[67.095924] (-) TimerEvent: {}
+[67.198237] (-) TimerEvent: {}
+[67.300410] (-) TimerEvent: {}
+[67.402119] (-) TimerEvent: {}
+[67.503681] (-) TimerEvent: {}
+[67.606414] (-) TimerEvent: {}
+[67.708189] (-) TimerEvent: {}
+[67.809924] (-) TimerEvent: {}
+[67.912513] (-) TimerEvent: {}
+[68.014130] (-) TimerEvent: {}
+[68.116848] (-) TimerEvent: {}
+[68.219590] (-) TimerEvent: {}
+[68.321790] (-) TimerEvent: {}
+[68.423942] (-) TimerEvent: {}
+[68.525949] (-) TimerEvent: {}
+[68.569352] (saye_control) StdoutLine: {'line': b'[ 75%] Built target client\n'}
+[68.626165] (-) TimerEvent: {}
+[68.727408] (-) TimerEvent: {}
+[68.828212] (-) TimerEvent: {}
+[68.929036] (-) TimerEvent: {}
+[69.029843] (-) TimerEvent: {}
+[69.130680] (-) TimerEvent: {}
+[69.231653] (-) TimerEvent: {}
+[69.332440] (-) TimerEvent: {}
+[69.433263] (-) TimerEvent: {}
+[69.534027] (-) TimerEvent: {}
+[69.635095] (-) TimerEvent: {}
+[69.735867] (-) TimerEvent: {}
+[69.836670] (-) TimerEvent: {}
+[69.937557] (-) TimerEvent: {}
+[70.038321] (-) TimerEvent: {}
+[70.139273] (-) TimerEvent: {}
+[70.240390] (-) TimerEvent: {}
+[70.341228] (-) TimerEvent: {}
+[70.442078] (-) TimerEvent: {}
+[70.542871] (-) TimerEvent: {}
+[70.643726] (-) TimerEvent: {}
+[70.744536] (-) TimerEvent: {}
+[70.845485] (-) TimerEvent: {}
+[70.946444] (-) TimerEvent: {}
+[71.047334] (-) TimerEvent: {}
+[71.148173] (-) TimerEvent: {}
+[71.249066] (-) TimerEvent: {}
+[71.349912] (-) TimerEvent: {}
+[71.450753] (-) TimerEvent: {}
+[71.551543] (-) TimerEvent: {}
+[71.652389] (-) TimerEvent: {}
+[71.753221] (-) TimerEvent: {}
+[71.853996] (-) TimerEvent: {}
+[71.954795] (-) TimerEvent: {}
+[72.055637] (-) TimerEvent: {}
+[72.156379] (-) TimerEvent: {}
+[72.257218] (-) TimerEvent: {}
+[72.357979] (-) TimerEvent: {}
+[72.458860] (-) TimerEvent: {}
+[72.559618] (-) TimerEvent: {}
+[72.660389] (-) TimerEvent: {}
+[72.761210] (-) TimerEvent: {}
+[72.862026] (-) TimerEvent: {}
+[72.962828] (-) TimerEvent: {}
+[73.063598] (-) TimerEvent: {}
+[73.164367] (-) TimerEvent: {}
+[73.265214] (-) TimerEvent: {}
+[73.365991] (-) TimerEvent: {}
+[73.466793] (-) TimerEvent: {}
+[73.567596] (-) TimerEvent: {}
+[73.668381] (-) TimerEvent: {}
+[73.769223] (-) TimerEvent: {}
+[73.870024] (-) TimerEvent: {}
+[73.970971] (-) TimerEvent: {}
+[74.072053] (-) TimerEvent: {}
+[74.172917] (-) TimerEvent: {}
+[74.273696] (-) TimerEvent: {}
+[74.374635] (-) TimerEvent: {}
+[74.475582] (-) TimerEvent: {}
+[74.576479] (-) TimerEvent: {}
+[74.677278] (-) TimerEvent: {}
+[74.778073] (-) TimerEvent: {}
+[74.878935] (-) TimerEvent: {}
+[74.979755] (-) TimerEvent: {}
+[75.080633] (-) TimerEvent: {}
+[75.181415] (-) TimerEvent: {}
+[75.282249] (-) TimerEvent: {}
+[75.383154] (-) TimerEvent: {}
+[75.483928] (-) TimerEvent: {}
+[75.584775] (-) TimerEvent: {}
+[75.685599] (-) TimerEvent: {}
+[75.786398] (-) TimerEvent: {}
+[75.887194] (-) TimerEvent: {}
+[75.987974] (-) TimerEvent: {}
+[76.088841] (-) TimerEvent: {}
+[76.189619] (-) TimerEvent: {}
+[76.290408] (-) TimerEvent: {}
+[76.391211] (-) TimerEvent: {}
+[76.491909] (-) TimerEvent: {}
+[76.592709] (-) TimerEvent: {}
+[76.693411] (-) TimerEvent: {}
+[76.794131] (-) TimerEvent: {}
+[76.894922] (-) TimerEvent: {}
+[76.995848] (-) TimerEvent: {}
+[77.096887] (-) TimerEvent: {}
+[77.197678] (-) TimerEvent: {}
+[77.298492] (-) TimerEvent: {}
+[77.399363] (-) TimerEvent: {}
+[77.500313] (-) TimerEvent: {}
+[77.704733] (-) TimerEvent: {}
+[77.805667] (-) TimerEvent: {}
+[77.906515] (-) TimerEvent: {}
+[78.007378] (-) TimerEvent: {}
+[78.108277] (-) TimerEvent: {}
+[78.209302] (-) TimerEvent: {}
+[78.310218] (-) TimerEvent: {}
+[78.411014] (-) TimerEvent: {}
+[78.511822] (-) TimerEvent: {}
+[78.612552] (-) TimerEvent: {}
+[78.713316] (-) TimerEvent: {}
+[78.814167] (-) TimerEvent: {}
+[78.915023] (-) TimerEvent: {}
+[79.015816] (-) TimerEvent: {}
+[79.116795] (-) TimerEvent: {}
+[79.217545] (-) TimerEvent: {}
+[79.318419] (-) TimerEvent: {}
+[79.419220] (-) TimerEvent: {}
+[79.520029] (-) TimerEvent: {}
+[79.620830] (-) TimerEvent: {}
+[79.721712] (-) TimerEvent: {}
+[79.822500] (-) TimerEvent: {}
+[79.923354] (-) TimerEvent: {}
+[80.024155] (-) TimerEvent: {}
+[80.124914] (-) TimerEvent: {}
+[80.225923] (-) TimerEvent: {}
+[80.326744] (-) TimerEvent: {}
+[80.427478] (-) TimerEvent: {}
+[80.528349] (-) TimerEvent: {}
+[80.629161] (-) TimerEvent: {}
+[80.730017] (-) TimerEvent: {}
+[80.831220] (-) TimerEvent: {}
+[80.932962] (-) TimerEvent: {}
+[81.034091] (-) TimerEvent: {}
+[81.134946] (-) TimerEvent: {}
+[81.235748] (-) TimerEvent: {}
+[81.336591] (-) TimerEvent: {}
+[81.437561] (-) TimerEvent: {}
+[81.538541] (-) TimerEvent: {}
+[81.639827] (-) TimerEvent: {}
+[81.741791] (-) TimerEvent: {}
+[81.842673] (-) TimerEvent: {}
+[81.943513] (-) TimerEvent: {}
+[82.044549] (-) TimerEvent: {}
+[82.145548] (-) TimerEvent: {}
+[82.177482] (saye_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable main\x1b[0m\n'}
+[82.245737] (-) TimerEvent: {}
+[82.346906] (-) TimerEvent: {}
+[82.448274] (-) TimerEvent: {}
+[82.549206] (-) TimerEvent: {}
+[82.650419] (-) TimerEvent: {}
+[82.751733] (-) TimerEvent: {}
+[82.853623] (-) TimerEvent: {}
+[82.955065] (-) TimerEvent: {}
+[83.056142] (-) TimerEvent: {}
+[83.157328] (-) TimerEvent: {}
+[83.258459] (-) TimerEvent: {}
+[83.359641] (-) TimerEvent: {}
+[83.460971] (-) TimerEvent: {}
+[83.562479] (-) TimerEvent: {}
+[83.663717] (-) TimerEvent: {}
+[83.764846] (-) TimerEvent: {}
+[83.866157] (-) TimerEvent: {}
+[83.967277] (-) TimerEvent: {}
+[84.068641] (-) TimerEvent: {}
+[84.169695] (-) TimerEvent: {}
+[84.270610] (-) TimerEvent: {}
+[84.371673] (-) TimerEvent: {}
+[84.472568] (-) TimerEvent: {}
+[84.573640] (-) TimerEvent: {}
+[84.674918] (-) TimerEvent: {}
+[84.775752] (-) TimerEvent: {}
+[84.877054] (-) TimerEvent: {}
+[84.977855] (-) TimerEvent: {}
+[85.078588] (-) TimerEvent: {}
+[85.179344] (-) TimerEvent: {}
+[85.280085] (-) TimerEvent: {}
+[85.381087] (-) TimerEvent: {}
+[85.482121] (-) TimerEvent: {}
+[85.583114] (-) TimerEvent: {}
+[85.683966] (-) TimerEvent: {}
+[85.784999] (-) TimerEvent: {}
+[85.886124] (-) TimerEvent: {}
+[85.901790] (saye_control) StdoutLine: {'line': b'[100%] Built target main\n'}
+[85.954789] (saye_control) CommandEnded: {'returncode': 0}
+[85.961342] (saye_control) JobProgress: {'identifier': 'saye_control', 'progress': 'install'}
+[85.986428] (-) TimerEvent: {}
+[86.001765] (saye_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi4b/PBL5/uros_ws/build/saye_control'], 'cwd': '/home/pi4b/PBL5/uros_ws/build/saye_control', 'env': OrderedDict([('VNCDESKTOP', 'pi4b:1 (pi4b)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi4b'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1163'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi4b/PBL5/uros_ws/install/saye_msgs/lib:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent/lib:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs/lib:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping/lib:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pi4b'), ('OLDPWD', '/home/pi4b/PBL5/uros_ws'), ('DESKTOP_SESSION', 'xfce'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('LIDAR_TYPE', 'x3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1032'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-3s8iYyXFz8,guid=5232b0da1c9527c8b860f16669e4763e'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('COLCON_PREFIX_PATH', '/home/pi4b/PBL5/uros_ws/install:/home/pi4b/PBL5/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi4b'), ('JOURNAL_STREAM', '8:23860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pi4b:@/tmp/.ICE-unix/1061,unix/pi4b:/tmp/.ICE-unix/1061'), ('INVOCATION_ID', 'fa48247e1e0846ff893c6bfedf2cca30'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'vi_VN'), ('DISPLAY', ':1.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'vi_VN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXrYtDRF/agent.1162'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:4d5006b6-e52e-41b4-9022-4723dfd1ac62'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('PWD', '/home/pi4b/PBL5/uros_ws/build/saye_control'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('PYTHONPATH', '/home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[86.045759] (saye_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[86.048475] (saye_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[86.054951] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/include/include/saye_control/control.hpp\n'}
+[86.086534] (-) TimerEvent: {}
+[86.093206] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/include/include/saye_control/joystick_controller_simulation.hpp\n'}
+[86.138612] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/lib/saye_control/main\n'}
+[86.178786] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/lib/saye_control/client\n'}
+[86.186707] (-) TimerEvent: {}
+[86.222553] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/lib/saye_control/esp32_odom_bridge.py\n'}
+[86.262868] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/ament_index/resource_index/package_run_dependencies/saye_control\n'}
+[86.286899] (-) TimerEvent: {}
+[86.301186] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/ament_index/resource_index/parent_prefix_path/saye_control\n'}
+[86.351168] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/environment/ament_prefix_path.sh\n'}
+[86.387155] (-) TimerEvent: {}
+[86.389300] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/environment/ament_prefix_path.dsv\n'}
+[86.434287] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/environment/path.sh\n'}
+[86.474833] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/environment/path.dsv\n'}
+[86.487285] (-) TimerEvent: {}
+[86.515790] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/local_setup.bash\n'}
+[86.556549] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/local_setup.sh\n'}
+[86.587485] (-) TimerEvent: {}
+[86.593814] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/local_setup.zsh\n'}
+[86.639316] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/local_setup.dsv\n'}
+[86.678264] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.dsv\n'}
+[86.687651] (-) TimerEvent: {}
+[86.717600] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/ament_index/resource_index/packages/saye_control\n'}
+[86.760438] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/cmake/saye_controlConfig.cmake\n'}
+[86.787872] (-) TimerEvent: {}
+[86.798436] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/cmake/saye_controlConfig-version.cmake\n'}
+[86.843125] (saye_control) StdoutLine: {'line': b'-- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.xml\n'}
+[86.887344] (saye_control) CommandEnded: {'returncode': 0}
+[86.889362] (-) TimerEvent: {}
+[86.990036] (-) TimerEvent: {}
+[86.997144] (saye_control) JobEnded: {'identifier': 'saye_control', 'rc': 0}
+[87.000227] (-) EventReactorShutdown: {}

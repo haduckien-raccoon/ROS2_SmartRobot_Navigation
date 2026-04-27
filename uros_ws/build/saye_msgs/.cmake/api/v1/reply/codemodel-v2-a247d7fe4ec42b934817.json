@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-351a2813ad95f16202cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "saye_msgs__py",
+					"jsonFile" : "directory-saye_msgs__py-d255b61804a04e2f9447.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pi4b/PBL5/uros_ws/build/saye_msgs/saye_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "saye_msgs__rs",
+					"jsonFile" : "directory-saye_msgs__rs-bb236da85eaf8702730c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pi4b/PBL5/uros_ws/build/saye_msgs/saye_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "saye_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_saye_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_saye_msgs_egg-9ce8111d52687ddd22fa.json",
+					"name" : "ament_cmake_python_build_saye_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_saye_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_saye_msgs-6930263f2e27f96220f1.json",
+					"name" : "ament_cmake_python_symlink_saye_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_msgs-de9d512a0d946709e634.json",
+					"name" : "saye_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_msgs__cpp-293b25c85a797df3f269.json",
+					"name" : "saye_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "saye_msgs__py::@ca8a4fc28a3ff8d3a69b",
+					"jsonFile" : "target-saye_msgs__py-29bd3151cf3bc974a05e.json",
+					"name" : "saye_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_msgs__rosidl_generator_c-3ca0a85fe6192a29e3a9.json",
+					"name" : "saye_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_msgs__rosidl_generator_py-02aa7c54e3e7a96d2e8e.json",
+					"name" : "saye_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_msgs__rosidl_typesupport_c-852c4e6cc9941275bcf9.json",
+					"name" : "saye_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_msgs__rosidl_typesupport_c__pyext-6d885d19d1d96c6b2f1a.json",
+					"name" : "saye_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_msgs__rosidl_typesupport_cpp-e7bfa2170a731324c185.json",
+					"name" : "saye_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_msgs__rosidl_typesupport_fastrtps_c-dd84fb6ec55e86057ae8.json",
+					"name" : "saye_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_msgs__rosidl_typesupport_fastrtps_c__pyext-b4791a3c9578786d3489.json",
+					"name" : "saye_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_msgs__rosidl_typesupport_fastrtps_cpp-98900f6ef88fc86fe1ea.json",
+					"name" : "saye_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_msgs__rosidl_typesupport_introspection_c-b37e46934253f8d91b07.json",
+					"name" : "saye_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_msgs__rosidl_typesupport_introspection_c__pyext-4f051f052c9722aee0a5.json",
+					"name" : "saye_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_msgs__rosidl_typesupport_introspection_cpp-da34d76e3c8c73e1f327.json",
+					"name" : "saye_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "saye_msgs__rs::@c98ab903dc83dc983a0a",
+					"jsonFile" : "target-saye_msgs__rs-6cdcf8a244637a751c7c.json",
+					"name" : "saye_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saye_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saye_msgs_uninstall-29347f8910462603ddc2.json",
+					"name" : "saye_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a39a7167397914e5d786.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pi4b/PBL5/uros_ws/build/saye_msgs",
+		"source" : "/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

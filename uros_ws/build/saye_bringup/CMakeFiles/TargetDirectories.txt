@@ -1,0 +1,9 @@
+/home/pi4b/PBL5/uros_ws/build/saye_bringup/CMakeFiles/uninstall.dir
+/home/pi4b/PBL5/uros_ws/build/saye_bringup/CMakeFiles/saye_bringup_uninstall.dir
+/home/pi4b/PBL5/uros_ws/build/saye_bringup/CMakeFiles/test.dir
+/home/pi4b/PBL5/uros_ws/build/saye_bringup/CMakeFiles/edit_cache.dir
+/home/pi4b/PBL5/uros_ws/build/saye_bringup/CMakeFiles/rebuild_cache.dir
+/home/pi4b/PBL5/uros_ws/build/saye_bringup/CMakeFiles/list_install_components.dir
+/home/pi4b/PBL5/uros_ws/build/saye_bringup/CMakeFiles/install.dir
+/home/pi4b/PBL5/uros_ws/build/saye_bringup/CMakeFiles/install/local.dir
+/home/pi4b/PBL5/uros_ws/build/saye_bringup/CMakeFiles/install/strip.dir

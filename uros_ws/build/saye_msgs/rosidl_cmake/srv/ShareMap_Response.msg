@@ -1,0 +1,4 @@
+
+bool is_completed
+nav_msgs/OccupancyGrid custom_occupany_grid
+string status_message

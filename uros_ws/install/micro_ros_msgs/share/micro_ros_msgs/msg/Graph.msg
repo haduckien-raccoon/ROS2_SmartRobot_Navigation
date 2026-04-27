@@ -1,1 +1,1 @@
-Node[] nodes
+/home/pi4b/PBL5/uros_ws/src/uros/micro_ros_msgs/msg/Graph.msg

@@ -1,0 +1,11 @@
+/home/pi4b/PBL5/uros_ws/build/saye_control/CMakeFiles/uninstall.dir
+/home/pi4b/PBL5/uros_ws/build/saye_control/CMakeFiles/saye_control_uninstall.dir
+/home/pi4b/PBL5/uros_ws/build/saye_control/CMakeFiles/main.dir
+/home/pi4b/PBL5/uros_ws/build/saye_control/CMakeFiles/client.dir
+/home/pi4b/PBL5/uros_ws/build/saye_control/CMakeFiles/test.dir
+/home/pi4b/PBL5/uros_ws/build/saye_control/CMakeFiles/edit_cache.dir
+/home/pi4b/PBL5/uros_ws/build/saye_control/CMakeFiles/rebuild_cache.dir
+/home/pi4b/PBL5/uros_ws/build/saye_control/CMakeFiles/list_install_components.dir
+/home/pi4b/PBL5/uros_ws/build/saye_control/CMakeFiles/install.dir
+/home/pi4b/PBL5/uros_ws/build/saye_control/CMakeFiles/install/local.dir
+/home/pi4b/PBL5/uros_ws/build/saye_control/CMakeFiles/install/strip.dir

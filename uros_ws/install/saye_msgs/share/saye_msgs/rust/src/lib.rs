@@ -1,0 +1,1 @@
+/home/pi4b/PBL5/uros_ws/build/saye_msgs/rosidl_generator_rs/saye_msgs/rust/src/lib.rs

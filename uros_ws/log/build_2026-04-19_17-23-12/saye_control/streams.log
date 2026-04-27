@@ -1,0 +1,92 @@
+[0.095s] Invoking command in '/home/pi4b/PBL5/uros_ws/build/saye_control': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/uros_ws/install/saye_control
+[0.436s] -- The C compiler identification is GNU 11.4.0
+[0.721s] -- The CXX compiler identification is GNU 11.4.0
+[0.754s] -- Detecting C compiler ABI info
+[1.115s] -- Detecting C compiler ABI info - done
+[1.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.143s] -- Detecting C compile features
+[1.144s] -- Detecting C compile features - done
+[1.156s] -- Detecting CXX compiler ABI info
+[1.560s] -- Detecting CXX compiler ABI info - done
+[1.587s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.588s] -- Detecting CXX compile features
+[1.590s] -- Detecting CXX compile features - done
+[1.638s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.529s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.872s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.432s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[4.021s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.106s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.209s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.329s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.994s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.037s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.806s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.150s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.700s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.833s] -- Looking for pthread.h
+[7.212s] -- Looking for pthread.h - found
+[7.214s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.584s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.589s] -- Found Threads: TRUE  
+[7.975s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[8.013s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.179s] -- Found saye_msgs: 0.0.0 (/home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake)
+[8.729s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.360s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.361s] -- Configured cppcheck include dirs: /home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/include
+[9.361s] -- Configured cppcheck exclude dirs and/or files: 
+[9.366s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.371s] -- Added test 'lint_cmake' to check CMake code style
+[9.376s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.387s] -- Added test 'uncrustify' to check C / C++ code style
+[9.387s] -- Configured uncrustify additional arguments: 
+[9.391s] -- Added test 'xmllint' to check XML markup files
+[9.405s] -- Configuring done
+[9.511s] -- Generating done
+[9.539s] -- Build files have been written to: /home/pi4b/PBL5/uros_ws/build/saye_control
+[9.581s] Invoked command in '/home/pi4b/PBL5/uros_ws/build/saye_control' returned '0': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/uros_ws/install/saye_control
+[9.593s] Invoking command in '/home/pi4b/PBL5/uros_ws/build/saye_control': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/uros_ws/build/saye_control -- -j4 -l4
+[9.860s] [ 25%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[9.867s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[24.112s] In file included from [01m[K/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/src/client.cpp:1[m[K:
+[24.113s] [01m[K/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/include/saye_control/control.hpp:[m[K In member function ‘[01m[Kvoid Control::service_callback(saye_msgs::srv::ShareMap_Request_<std::allocator<void> >::SharedPtr, saye_msgs::srv::ShareMap_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[24.114s] [01m[K/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/include/saye_control/control.hpp:95:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[24.115s]    95 | void Control::service_callback([01;35m[Kconst saye_msgs::srv::ShareMap::Request::SharedPtr request[m[K, const saye_msgs::srv::ShareMap::Response::SharedPtr response)
+[24.115s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[24.160s] In file included from [01m[K/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/src/main.cpp:1[m[K:
+[24.163s] [01m[K/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/include/saye_control/control.hpp:[m[K In member function ‘[01m[Kvoid Control::service_callback(saye_msgs::srv::ShareMap_Request_<std::allocator<void> >::SharedPtr, saye_msgs::srv::ShareMap_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[24.163s] [01m[K/home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_control/include/saye_control/control.hpp:95:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[24.164s]    95 | callback([01;35m[Kconst saye_msgs::srv::ShareMap::Request::SharedPtr request[m[K, const saye_msgs::srv::ShareMap::Response::SharedPtr response)
+[24.164s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[24.165s] 
+[64.444s] [ 75%] [32m[1mLinking CXX executable client[0m
+[67.526s] [ 75%] Built target client
+[79.027s] [100%] [32m[1mLinking CXX executable main[0m
+[82.787s] [100%] Built target main
+[82.836s] Invoked command in '/home/pi4b/PBL5/uros_ws/build/saye_control' returned '0': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/uros_ws/build/saye_control -- -j4 -l4
+[82.890s] Invoking command in '/home/pi4b/PBL5/uros_ws/build/saye_control': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/uros_ws/build/saye_control
+[82.925s] -- Install configuration: ""
+[82.927s] -- Execute custom install script
+[82.929s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/include/include/saye_control/control.hpp
+[82.970s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/include/include/saye_control/joystick_controller_simulation.hpp
+[83.010s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/lib/saye_control/main
+[83.056s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/lib/saye_control/client
+[83.098s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/lib/saye_control/esp32_odom_bridge.py
+[83.136s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/ament_index/resource_index/package_run_dependencies/saye_control
+[83.184s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/ament_index/resource_index/parent_prefix_path/saye_control
+[83.224s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/environment/ament_prefix_path.sh
+[83.266s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/environment/ament_prefix_path.dsv
+[83.307s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/environment/path.sh
+[83.349s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/environment/path.dsv
+[83.390s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/local_setup.bash
+[83.431s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/local_setup.sh
+[83.474s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/local_setup.zsh
+[83.516s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/local_setup.dsv
+[83.557s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.dsv
+[83.598s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/ament_index/resource_index/packages/saye_control
+[83.639s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/cmake/saye_controlConfig.cmake
+[83.681s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/cmake/saye_controlConfig-version.cmake
+[83.720s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_control/share/saye_control/package.xml
+[83.771s] Invoked command in '/home/pi4b/PBL5/uros_ws/build/saye_control' returned '0': CMAKE_PREFIX_PATH=/home/pi4b/PBL5/uros_ws/install/saye_msgs:/home/pi4b/PBL5/uros_ws/install/ydlidar_robot_bringup:/home/pi4b/PBL5/uros_ws/install/saye_control:/home/pi4b/PBL5/uros_ws/install/saye_bringup:/home/pi4b/PBL5/uros_ws/install/saye_description:/home/pi4b/PBL5/uros_ws/install/micro_ros_setup:/home/pi4b/PBL5/uros_ws/install/micro_ros_agent:/home/pi4b/PBL5/uros_ws/install/micro_ros_msgs:/home/pi4b/PBL5/ydlidar_ws/install/ydlidar_ros2_driver:/home/pi4b/PBL5/ydlidar_ws/install/slam_gmapping:/home/pi4b/PBL5/ydlidar_ws/install/openslam_gmapping:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/uros_ws/build/saye_control

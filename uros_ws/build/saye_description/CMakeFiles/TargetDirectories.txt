@@ -1,0 +1,9 @@
+/home/pi4b/PBL5/uros_ws/build/saye_description/CMakeFiles/uninstall.dir
+/home/pi4b/PBL5/uros_ws/build/saye_description/CMakeFiles/saye_description_uninstall.dir
+/home/pi4b/PBL5/uros_ws/build/saye_description/CMakeFiles/test.dir
+/home/pi4b/PBL5/uros_ws/build/saye_description/CMakeFiles/edit_cache.dir
+/home/pi4b/PBL5/uros_ws/build/saye_description/CMakeFiles/rebuild_cache.dir
+/home/pi4b/PBL5/uros_ws/build/saye_description/CMakeFiles/list_install_components.dir
+/home/pi4b/PBL5/uros_ws/build/saye_description/CMakeFiles/install.dir
+/home/pi4b/PBL5/uros_ws/build/saye_description/CMakeFiles/install/local.dir
+/home/pi4b/PBL5/uros_ws/build/saye_description/CMakeFiles/install/strip.dir

@@ -1,0 +1,258 @@
+[0.119s] Invoking command in '/home/pi4b/PBL5/uros_ws/build/saye_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/uros_ws/install/saye_msgs
+[0.523s] -- The C compiler identification is GNU 11.4.0
+[0.916s] -- The CXX compiler identification is GNU 11.4.0
+[0.949s] -- Detecting C compiler ABI info
+[1.411s] -- Detecting C compiler ABI info - done
+[1.450s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.452s] -- Detecting C compile features
+[1.458s] -- Detecting C compile features - done
+[1.475s] -- Detecting CXX compiler ABI info
+[2.003s] -- Detecting CXX compiler ABI info - done
+[2.030s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.031s] -- Detecting CXX compile features
+[2.034s] -- Detecting CXX compile features - done
+[2.070s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.287s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.770s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.196s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[4.695s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.759s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.839s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.936s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.072s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.490s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.526s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.331s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.710s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.295s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.413s] -- Looking for pthread.h
+[7.901s] -- Looking for pthread.h - found
+[7.903s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.394s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.400s] -- Found Threads: TRUE  
+[8.860s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.103s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[9.228s] -- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)
+[9.560s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[11.965s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[16.702s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.862s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.086s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[19.140s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[19.300s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[19.301s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[19.302s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[19.302s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[19.613s] -- Found PythonExtra: .so  
+[21.243s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[21.776s] -- Added test 'lint_cmake' to check CMake code style
+[21.816s] -- Added test 'xmllint' to check XML markup files
+[21.906s] -- Configuring done
+[22.520s] -- Generating done
+[22.633s] -- Build files have been written to: /home/pi4b/PBL5/uros_ws/build/saye_msgs
+[22.742s] Invoked command in '/home/pi4b/PBL5/uros_ws/build/saye_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi4b/PBL5/uros_ws/src/ackermann-vehicle-gzsim-ros2/saye_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4b/PBL5/uros_ws/install/saye_msgs
+[22.744s] Invoking command in '/home/pi4b/PBL5/uros_ws/build/saye_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/uros_ws/build/saye_msgs -- -j4 -l4
+[23.349s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[23.504s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[23.544s] [  5%] Built target ament_cmake_python_symlink_saye_msgs
+[23.557s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[27.210s] [  7%] Built target saye_msgs__rs
+[28.475s] running egg_info
+[28.480s] creating saye_msgs.egg-info
+[28.482s] writing saye_msgs.egg-info/PKG-INFO
+[28.485s] writing dependency_links to saye_msgs.egg-info/dependency_links.txt
+[28.495s] writing top-level names to saye_msgs.egg-info/top_level.txt
+[28.500s] writing manifest file 'saye_msgs.egg-info/SOURCES.txt'
+[28.524s] reading manifest file 'saye_msgs.egg-info/SOURCES.txt'
+[28.539s] writing manifest file 'saye_msgs.egg-info/SOURCES.txt'
+[28.738s] [  7%] Built target saye_msgs__cpp
+[28.936s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[29.009s] [ 10%] Built target ament_cmake_python_build_saye_msgs_egg
+[29.021s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[29.132s] [ 15%] [32mBuilding C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/msg/detail/map__functions.c.o[0m
+[29.241s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[30.015s] [ 20%] [32mBuilding C object CMakeFiles/saye_msgs__rosidl_generator_c.dir/rosidl_generator_c/saye_msgs/srv/detail/share_map__functions.c.o[0m
+[31.004s] [ 22%] [32m[1mLinking C shared library libsaye_msgs__rosidl_generator_c.so[0m
+[31.733s] [ 22%] Built target saye_msgs__rosidl_generator_c
+[31.892s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[31.903s] [ 27%] [32mBuilding CXX object CMakeFiles/saye_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/saye_msgs/msg/map__type_support.cpp.o[0m
+[32.986s] [ 30%] [32mBuilding CXX object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/saye_msgs/msg/detail/dds_fastrtps/map__type_support.cpp.o[0m
+[34.029s] [ 32%] [32mBuilding CXX object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/saye_msgs/msg/detail/map__type_support.cpp.o[0m
+[35.721s] [ 35%] [32mBuilding CXX object CMakeFiles/saye_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/saye_msgs/srv/share_map__type_support.cpp.o[0m
+[36.014s] [ 37%] [32mBuilding CXX object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/saye_msgs/msg/detail/map__type_support_c.cpp.o[0m
+[39.274s] [ 40%] [32mBuilding CXX object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/saye_msgs/srv/detail/dds_fastrtps/share_map__type_support.cpp.o[0m
+[39.323s] [ 42%] [32mBuilding CXX object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/saye_msgs/srv/detail/share_map__type_support.cpp.o[0m
+[39.604s] [ 45%] [32mBuilding CXX object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/saye_msgs/srv/detail/share_map__type_support_c.cpp.o[0m
+[39.670s] [ 47%] [32m[1mLinking CXX shared library libsaye_msgs__rosidl_typesupport_cpp.so[0m
+[40.062s] [ 47%] Built target saye_msgs__rosidl_typesupport_cpp
+[40.175s] [ 50%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[42.835s] [ 52%] [32mBuilding C object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/saye_msgs/msg/detail/map__type_support.c.o[0m
+[43.028s] [ 55%] [32m[1mLinking CXX shared library libsaye_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[43.109s] [ 57%] [32m[1mLinking CXX shared library libsaye_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[43.268s] [ 60%] [32mBuilding C object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/saye_msgs/srv/detail/share_map__type_support.c.o[0m
+[43.584s] [ 62%] [32m[1mLinking CXX shared library libsaye_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[43.652s] [ 65%] [32m[1mLinking C shared library libsaye_msgs__rosidl_typesupport_introspection_c.so[0m
+[43.699s] [ 65%] Built target saye_msgs__rosidl_typesupport_fastrtps_c
+[43.754s] [ 67%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[44.140s] [ 67%] Built target saye_msgs__rosidl_typesupport_introspection_c
+[44.193s] [ 67%] Built target saye_msgs__rosidl_typesupport_introspection_cpp
+[44.273s] [ 67%] Built target saye_msgs__rosidl_typesupport_fastrtps_cpp
+[45.176s] [ 70%] [32mBuilding CXX object CMakeFiles/saye_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/saye_msgs/msg/map__type_support.cpp.o[0m
+[45.207s] [ 72%] [32mBuilding CXX object CMakeFiles/saye_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/saye_msgs/srv/share_map__type_support.cpp.o[0m
+[45.426s] [ 75%] [32m[1mLinking CXX shared library libsaye_msgs__rosidl_typesupport_c.so[0m
+[45.670s] [ 75%] Built target saye_msgs__rosidl_typesupport_c
+[45.789s] [ 75%] Built target saye_msgs
+[45.902s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[48.393s] [ 77%] Built target saye_msgs__py
+[48.495s] [ 80%] [32mBuilding C object CMakeFiles/saye_msgs__rosidl_generator_py.dir/rosidl_generator_py/saye_msgs/msg/_map_s.c.o[0m
+[48.501s] [ 82%] [32mBuilding C object CMakeFiles/saye_msgs__rosidl_generator_py.dir/rosidl_generator_py/saye_msgs/srv/_share_map_s.c.o[0m
+[49.129s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/saye_msgs/libsaye_msgs__rosidl_generator_py.so[0m
+[49.414s] [ 85%] Built target saye_msgs__rosidl_generator_py
+[49.521s] [ 87%] [32mBuilding C object CMakeFiles/saye_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/saye_msgs/_saye_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[49.525s] [ 90%] [32mBuilding C object CMakeFiles/saye_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/saye_msgs/_saye_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[49.571s] [ 92%] [32mBuilding C object CMakeFiles/saye_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/saye_msgs/_saye_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[50.231s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/saye_msgs/saye_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[50.252s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/saye_msgs/saye_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[50.379s] [100%] [32m[1mLinking C shared library rosidl_generator_py/saye_msgs/saye_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[50.724s] [100%] Built target saye_msgs__rosidl_typesupport_fastrtps_c__pyext
+[50.735s] [100%] Built target saye_msgs__rosidl_typesupport_introspection_c__pyext
+[50.813s] [100%] Built target saye_msgs__rosidl_typesupport_c__pyext
+[50.865s] Invoked command in '/home/pi4b/PBL5/uros_ws/build/saye_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi4b/PBL5/uros_ws/build/saye_msgs -- -j4 -l4
+[50.876s] Invoking command in '/home/pi4b/PBL5/uros_ws/build/saye_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/uros_ws/build/saye_msgs
+[50.906s] -- Install configuration: ""
+[50.908s] -- Execute custom install script
+[50.910s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/ament_index/resource_index/rosidl_interfaces/saye_msgs
+[50.951s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__functions.h
+[50.987s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__struct.h
+[51.023s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__type_support.h
+[51.061s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/map.h
+[51.097s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/rosidl_generator_c__visibility_control.h
+[51.132s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__functions.h
+[51.171s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__struct.h
+[51.208s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__type_support.h
+[51.244s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/srv/share_map.h
+[51.280s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/environment/library_path.sh
+[51.316s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/environment/library_path.dsv
+[51.356s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__rosidl_typesupport_fastrtps_c.h
+[51.395s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[51.430s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__rosidl_typesupport_fastrtps_c.h
+[51.483s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__builder.hpp
+[51.523s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__struct.hpp
+[51.561s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__traits.hpp
+[51.596s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__type_support.hpp
+[51.633s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/map.hpp
+[51.669s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[51.705s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__builder.hpp
+[51.743s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__struct.hpp
+[51.777s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__traits.hpp
+[51.815s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__type_support.hpp
+[51.856s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/srv/share_map.hpp
+[51.898s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__rosidl_typesupport_fastrtps_cpp.hpp
+[51.937s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[51.976s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__rosidl_typesupport_fastrtps_cpp.hpp
+[52.016s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__rosidl_typesupport_introspection_c.h
+[52.062s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[52.101s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__rosidl_typesupport_introspection_c.h
+[52.140s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/msg/detail/map__rosidl_typesupport_introspection_cpp.hpp
+[52.178s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/include/saye_msgs/saye_msgs/srv/detail/share_map__rosidl_typesupport_introspection_cpp.hpp
+[52.218s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/environment/pythonpath.sh
+[52.258s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/environment/pythonpath.dsv
+[52.308s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[52.349s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[52.390s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[52.429s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[52.474s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/__init__.py
+[52.512s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/_saye_msgs_s.ep.rosidl_typesupport_c.c
+[52.551s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/_saye_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[52.594s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/_saye_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[52.632s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/libsaye_msgs__rosidl_generator_py.so
+[52.673s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/msg/__init__.py
+[52.709s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/msg/_map.py
+[52.746s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/msg/_map_s.c
+[52.785s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[52.823s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[52.861s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[52.902s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/srv/__init__.py
+[52.940s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/srv/_share_map.py
+[52.986s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/srv/_share_map_s.c
+[53.024s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[53.025s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[53.027s] -- Up-to-date symlink: /home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/saye_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[53.028s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/ament_index/resource_index/rust_packages/saye_msgs
+[53.069s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/rust/Cargo.toml
+[53.106s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/rust/build.rs
+[53.144s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/rust/src/lib.rs
+[53.182s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/rust/src/msg.rs
+[53.221s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/rust/src/msg/rmw.rs
+[53.264s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/rust/src/srv.rs
+[53.305s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/rust/src/srv/rmw.rs
+[53.341s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/msg/Map.idl
+[53.381s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/srv/ShareMap.idl
+[53.418s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/msg/Map.msg
+[53.458s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/srv/ShareMap.srv
+[53.499s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/srv/ShareMap_Request.msg
+[53.535s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/srv/ShareMap_Response.msg
+[53.573s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/ament_index/resource_index/package_run_dependencies/saye_msgs
+[53.611s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/ament_index/resource_index/parent_prefix_path/saye_msgs
+[53.653s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/environment/ament_prefix_path.sh
+[53.697s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/environment/ament_prefix_path.dsv
+[53.735s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/environment/path.sh
+[53.774s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/environment/path.dsv
+[53.809s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/local_setup.bash
+[53.844s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/local_setup.sh
+[53.880s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/local_setup.zsh
+[53.915s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/local_setup.dsv
+[53.953s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/package.dsv
+[53.990s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/ament_index/resource_index/packages/saye_msgs
+[54.027s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/rosidl_cmake-extras.cmake
+[54.067s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[54.107s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[54.146s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[54.185s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[54.220s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[54.270s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[54.301s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/saye_msgsConfig.cmake
+[54.339s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/saye_msgsConfig-version.cmake
+[54.378s] -- Symlinking: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/package.xml
+[54.414s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_generator_c.so
+[54.417s] -- Set runtime path of "/home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_generator_c.so" to ""
+[54.417s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_fastrtps_c.so
+[54.421s] -- Set runtime path of "/home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[54.421s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_fastrtps_cpp.so
+[54.424s] -- Set runtime path of "/home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[54.425s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_introspection_c.so
+[54.428s] -- Set runtime path of "/home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_introspection_c.so" to ""
+[54.429s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_c.so
+[54.431s] -- Set runtime path of "/home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_c.so" to ""
+[54.432s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_introspection_cpp.so
+[54.435s] -- Set runtime path of "/home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[54.436s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_cpp.so
+[54.439s] -- Set runtime path of "/home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_typesupport_cpp.so" to ""
+[54.631s] Listing '/home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs'...
+[54.632s] Compiling '/home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/__init__.py'...
+[54.633s] Listing '/home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/msg'...
+[54.634s] Compiling '/home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/msg/__init__.py'...
+[54.635s] Compiling '/home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/msg/_map.py'...
+[54.636s] Listing '/home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/srv'...
+[54.636s] Compiling '/home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/srv/__init__.py'...
+[54.638s] Compiling '/home/pi4b/PBL5/uros_ws/install/saye_msgs/local/lib/python3.10/dist-packages/saye_msgs/srv/_share_map.py'...
+[54.662s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_generator_py.so
+[54.665s] -- Set runtime path of "/home/pi4b/PBL5/uros_ws/install/saye_msgs/lib/libsaye_msgs__rosidl_generator_py.so" to ""
+[54.666s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_generator_cExport.cmake
+[54.667s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_generator_cExport-noconfig.cmake
+[54.669s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[54.671s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[54.673s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_generator_cppExport.cmake
+[54.674s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[54.676s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[54.679s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_introspection_cExport.cmake
+[54.681s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[54.683s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_cExport.cmake
+[54.684s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[54.686s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[54.687s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[54.689s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_cppExport.cmake
+[54.690s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/saye_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[54.692s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_generator_pyExport.cmake
+[54.693s] -- Installing: /home/pi4b/PBL5/uros_ws/install/saye_msgs/share/saye_msgs/cmake/export_saye_msgs__rosidl_generator_pyExport-noconfig.cmake
+[54.705s] Invoked command in '/home/pi4b/PBL5/uros_ws/build/saye_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi4b/PBL5/uros_ws/build/saye_msgs
